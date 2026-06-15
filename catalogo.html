@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lettere dei condannati a morte della Resistenza</title>
+  <link rel="stylesheet" type="text/css" href="catalogo.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Resistenza Italiana</div>
+
+    <div class="topnav">
+      <a  href="index.html">Home</a>
+      <a href="linea_del_tempo.html">Linea del tempo</a>
+      <a href="mappa.html">Mappa</a>
+      <a href="concetti.html">Concetti</a>
+      <a class="active" href="catalogo.html">Catalogo</a>
+      <a href="dati.html">Dati</a>
+    </div>
+  </header>
+
+<div class="main-layout-container">
+
+  <aside class="filter-sidebar">
+
+  <h3>Filtri</h3>
+
+  <div class="filter-group">
+    <h4>Affiliazione politica</h4>
+
+    <div class="filter-option">
+      <input type="checkbox" id="pci">
+      <label for="pci">Partito Comunista Italiano</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="monarchico">
+      <label for="monarchico">Monarchico-badogliano</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="pda">
+      <label for="pda">Partito d'Azione</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="psi">
+      <label for="psi">Partito Socialista</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="dc">
+      <label for="dc">Democrazia Cristiana</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="pri">
+      <label for="pri">Partito Repubblicano</label>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <h4>Professione</h4>
+
+    <div class="filter-option">
+      <input type="checkbox" id="esercito">
+      <label for="esercito">Esercito</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="studenti">
+      <label for="studenti">Culto, professioni, studenti universitari</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="operai">
+      <label for="operai">Operai</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="venditori">
+      <label for="venditori">Venditori e rappresentanti commerciali</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="casalinghe">
+      <label for="casalinghe">Casalinghe</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="servizio">
+      <label for="servizio">Persone di servizio e di fatica</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="impiegati">
+      <label for="impiegati">Impiegati</label>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <h4>Decorazioni</h4>
+
+    <div class="filter-option">
+      <input type="checkbox" id="movm">
+      <label for="movm">Medaglia d'Oro al Valore Militare</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="mavm">
+      <label for="mavm">Medaglia d'Argento al Valore Militare</label>
+    </div>
+  </div>
+
+  <div class="filter-group">
+    <h4>Genere</h4>
+
+    <div class="filter-option">
+      <input type="checkbox" id="uomini">
+      <label for="uomini">Uomini</label>
+    </div>
+
+    <div class="filter-option">
+      <input type="checkbox" id="donne">
+      <label for="donne">Donne</label>
+    </div>
+  </div>
+
+  <button class="filter-button" id="applyFilters">
+    Applica filtri
+  </button>
+
+</aside>
+
+  <main class="content-area">
+
+    <div class="search-container">
+      <input type="text" id="myInput" oninput="myFunction()" placeholder="Search for names..">
+      <ul id="myUL">
+        <li><a href="lettere/maria_luisa_alessi.xml">Maria Luisa Alessi</a></li>
+        <li><a href="lettere/giulio_casiraghi.xml">Giulio Casiraghi</a></li>
+        <li><a href="lettere/mario_de_martis.xml">Mario De Martis</a></li>
+        <li><a href="lettere/pedro_ferreira.xml">Pedro Ferreira</a></li>
+        <li><a href="lettere/domenico_fiorani.xml">Domenico Fiorani</a></li>
+        <li><a href="lettere/umberto_fogagnolo.xml">Umberto Fogagnolo</a></li>
+        <li><a href="lettere/paola_garelli.xml">Paola Garelli</a></li>
+        <li><a href="lettere/eusebio_giambone.xml">Eusebio Giambone</a></li>
+        <li><a href="lettere/franca_lanzone.xml">Franca Lanzone</a></li>
+        <li><a href="lettere/aleandro_longhi.xml">Aleandro Longhi</a></li>
+        <li><a href="lettere/alberto_marchesi.xml">Alberto Marchesi</a></li>
+        <li><a href="lettere/irma_marchiani.xml">Irma Marchiani</a></li>
+        <li><a href="lettere/sabato_martelli_castaldi.xml">Sabato Martelli Castaldi</a></li>
+        <li><a href="lettere/attilio_martinetto.xml">Attilio Martinetto</a></li>
+        <li><a href="lettere/aldo_mei.xml">Aldo Mei</a></li>
+        <li><a href="lettere/giuseppe_cordero_lanza_di_montezemolo.xml">Giuseppe Cordero Lanza di Montezemolo</a></li>
+        <li><a href="lettere/luciano_pradolin.xml">Luciano Pradolin</a></li>
+        <li><a href="lettere/simone_simoni.xml">Simone Simoni</a></li>
+        <li><a href="lettere/ferruccio_valobra.xml">Ferruccio Valobra</a></li>
+        <li><a href="lettere/goffredo_villa.xml">Goffredo Villa</a></li>
+      </ul>
+    </div>
+
+  <div class="cards-grid">
+
+      <div class="card" data-id="Maria_Luisa_Alessi" data-politica="pci" data-professione="impiegati" data-decorazione="" data-genere="donne">
+        <div class="img-container">
+          <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+            <div class="overlay">
+              <a href="lettere/maria_luisa_alessi.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Maria Luisa Alessi</b></h4>
+          <p>Marialuisa</p>  
+        </div>
+      </div>
+      
+
+      <div class="card" data-id="Giulio_Casiraghi" data-politica="pci" data-professione="operai" data-decorazione="movm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/giulio_casiraghi.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/giulio_casiraghi.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Giulio Casiraghi</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Mario_De_Martis" data-politica="monarchico" data-professione="studenti" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/mario_de_martis.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Mario De Martis</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Pietro_Ferreira" data-politica="pda" data-professione="esercito" data-decorazione="movm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/pietro_ferreira.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="pietro_ferreira.html">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Pietro Ferreira</b></h4>
+          <p>Pedro</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Domenico_Fiorani" data-politica="psi" data-professione="studenti" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/domenico_fiorani.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/domenico_fiorani.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Domenico Fiorani</b></h4>
+          <p>Mingo</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Umberto_Fogagnolo" data-politica="psi" data-professione="studenti" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/umberto_fogagnolo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/umberto_fogagnolo.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Umberto Fogagnolo</b></h4>
+          <p>Ingegnere Bianchi</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Paola_Garelli" data-politica="pci" data-professione="servizio" data-decorazione="" data-genere="donne">
+        <div class="img-container">
+        <img src="foto_condannati/paola_garelli.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/paola_garelli.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Paola Garelli</b></h4>
+          <p>Mirka</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Eusebio_Giambone" data-politica="pci" data-professione="operai" data-decorazione="movm" data-decorazione="mavm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/eusebio_giambone.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/eusebio_giambone.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Eusebio Giambone</b></h4>
+          <p>Franco</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Franca_Lanzone" data-politica="pci" data-professione="casalinghe" data-decorazione="" data-genere="donne">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/franca_lanzone.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Franca Lanzone</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Aleandro_Longhi" data-politica="pci" data-professione="operai" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/aleandro_longhi.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Aleandro Longhi</b></h4>
+          <p>Bianchi</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Alberto_Marchesi" data-politica="pci" data-professione="venditori" data-decorazione="movm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/alberto_marchesi.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Alberto Marchesi</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Irma_Marchiani" data-politica="psi" data-professione="operai" data-decorazione="movm" data-genere="donne">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/irma_marchiani.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Irma Marchiani</b></h4>
+          <p>Anty</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Sabato_Martelli_Castaldi" data-politica="" data-professione="esercito" data-decorazione="movm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/sabato_martelli_castaldi.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/sabato_martelli_castaldi.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Sabato Martelli Castaldi</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Attilio_Martinetto" data-politica="dc" data-professione="esercito" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/attilio_martinetto.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Attilio Martinetto</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Aldo_Mei" data-politica="" data-professione="studenti" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/aldo_mei.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/aldo_mei.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Aldo Mei</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Giuseppe_Cordero_Lanza_Di_Montezemolo" data-politica="esercito" data-professione="operai" data-decorazione="movm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/giuseppe_cordero_lanza_di_montezemolo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/giuseppe_cordero_lanza_di_montezemolo.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Giuseppe Cordero Lanza di Montezemolo</b></h4>
+          <p>Ing. Giacomo Cataratto-Martini</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Luciano_Pradolin" data-politica="" data-professione="studenti" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/luciano_pradolin.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/luciano_pradolin.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Luciano Pradolin</b></h4>
+          <p>Goffredo</p>
+        </div>
+      </div>
+
+      <div class="card" data-id="Simone_Simoni" data-politica="" data-professione="esercito" data-decorazione="movm" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/foto_anonimo.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/simone_simoni.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Simone Simoni</b></h4>
+        </div>
+      </div>
+
+      <div class="card" data-id="Ferruccio_Valobra" data-politica="pri" data-professione="venditori" data-decorazione="" data-genere="uomini">
+        <div class="img-container">
+        <img src="foto_condannati/ferruccio_valobra.jpg" alt="Avatar" style="width:100%">
+         <div class="overlay">
+              <a href="lettere/ferruccio_valobra.xml">Vai alla risorsa</a>
+            </div>
+        </div>
+        <div class="container">
+          <h4><b>Ferruccio Valobra</b></h4>
+          <p>Capitano Rossi</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+// Associa la funzione al click del tuo pulsante "Applica filtri"
+document.getElementById('applyFilters').addEventListener('click', applicaTuttiIFiltri);
+
+// Continua a gestire l'input di testo in tempo reale se necessario
+document.getElementById('myInput').addEventListener('input', applicaTuttiIFiltri);
+
+function applicaTuttiIFiltri() {
+  // 1. Gestione Barra di Ricerca Testuale
+  var input = document.getElementById('myInput');
+  var filterText = input.value.toUpperCase();
+  var ul = document.getElementById("myUL");
+  var li = ul.getElementsByTagName('li');
+
+  // Mostra/Nasconde la lista dei suggerimenti testuali
+  ul.style.display = filterText === "" ? "none" : "block";
+
+  for (var i = 0; i < li.length; i++) {
+    var a = li[i].getElementsByTagName("a")[0];
+    var txtValue = a.textContent || a.innerText;
+    li[i].style.display = txtValue.toUpperCase().indexOf(filterText) > -1 ? "" : "none";
+  }
+
+  // 2. RECUPERO DEI FILTRI SELEZIONATI (Mantenendo la tua struttura HTML)
+  var filtriPolitica = ottieniIdSelezionati(['pci', 'monarchico', 'pda', 'psi', 'dc', 'pri']);
+  var filtriProfessione = ottieniIdSelezionati(['esercito', 'studenti', 'operai', 'venditori', 'casalinghe', 'servizio', 'impiegati']);
+  var filtriDecorazioni = ottieniIdSelezionati(['movm', 'mavm']);
+  var filtriGenere = ottieniIdSelezionati(['uomini', 'donne']);
+
+  // 3. FILTRAGGIO DELLE CARD
+  var cards = document.querySelectorAll('.cards-grid .card');
+
+  cards.forEach(function(card) {
+    // Recupera i dettagli della card
+    var cardName = card.querySelector('h4').textContent || card.querySelector('h4').innerText;
+    var attrPolitica = card.getAttribute('data-politica');
+    var attrProfessione = card.getAttribute('data-professione');
+    var attrDecorazione = card.getAttribute('data-decorazione');
+    var attrGenere = card.getAttribute('data-genere');
+
+    // Verifiche sui singoli gruppi (Se nessun elemento del gruppo è spuntato, passa il controllo)
+    var matchTesto = cardName.toUpperCase().indexOf(filterText) > -1;
+    var matchPolitica = filtriPolitica.length === 0 || filtriPolitica.includes(attrPolitica);
+    var matchProfessione = filtriProfessione.length === 0 || filtriProfessione.includes(attrProfessione);
+    var matchDecorazione = filtriDecorazioni.length === 0 || filtriDecorazioni.includes(attrDecorazione);
+    var matchGenere = filtriGenere.length === 0 || filtriGenere.includes(attrGenere);
+
+    // La card si mostra solo se rispetta TUTTI i criteri contemporaneamente
+    if (matchTesto && matchPolitica && matchProfessione && matchDecorazione && matchGenere) {
+      card.style.display = ""; // Rende visibile
+    } else {
+      card.style.display = "none"; // Nasconde
+    }
+  });
+}
+
+// Funzione di supporto per raccogliere gli ID delle checkbox spuntate
+function ottieniIdSelezionati(listaId) {
+  var selezionati = [];
+  listaId.forEach(function(id) {
+    var checkbox = document.getElementById(id);
+    if (checkbox && checkbox.checked) {
+      selezionati.push(id);
+    }
+  });
+  return selezionati;
+}
+</script>
+
+  <section class="pre-footer">
+
+    <div class="pre-footer-column">
+        <h3>Progetto</h3>
+        <ul>
+            <li><a href="project-plan.html">Project Plan</a></li>
+        </ul>
+    </div>
+
+    <div class="pre-footer-column">
+        <h3>Dati</h3>
+        <ul>
+            <li><a href="metadati-progetto.xml">Metadati XML/DC</a></li>
+            <li><a href="xml.html">Schema di descrizione per i dati anagrafici</a></li>
+        </ul>
+    </div>
+
+    <div class="pre-footer-column">
+        <h3>Informazioni</h3>
+        <ul>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="licenze.html">Licenze</a></li>
+        </ul>
+    </div>
+
+  </section>
+    <footer>
+      <p>
+        ©Copyrights (c) 2026 by Martina Simonelli - martina.simonelli2@studio.unibo.it
+      </p>
+    </footer>
+
+</body>
+</html>
