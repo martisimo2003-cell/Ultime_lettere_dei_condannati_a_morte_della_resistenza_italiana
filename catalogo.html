@@ -409,20 +409,16 @@
 </div>
 
 <script>
-// Associa la funzione al click del tuo pulsante "Applica filtri"
 document.getElementById('applyFilters').addEventListener('click', applicaTuttiIFiltri);
 
-// Continua a gestire l'input di testo in tempo reale se necessario
 document.getElementById('myInput').addEventListener('input', applicaTuttiIFiltri);
 
 function applicaTuttiIFiltri() {
-  // 1. Gestione Barra di Ricerca Testuale
   var input = document.getElementById('myInput');
   var filterText = input.value.toUpperCase();
   var ul = document.getElementById("myUL");
   var li = ul.getElementsByTagName('li');
 
-  // Mostra/Nasconde la lista dei suggerimenti testuali
   ul.style.display = filterText === "" ? "none" : "block";
 
   for (var i = 0; i < li.length; i++) {
@@ -431,40 +427,34 @@ function applicaTuttiIFiltri() {
     li[i].style.display = txtValue.toUpperCase().indexOf(filterText) > -1 ? "" : "none";
   }
 
-  // 2. RECUPERO DEI FILTRI SELEZIONATI (Mantenendo la tua struttura HTML)
   var filtriPolitica = ottieniIdSelezionati(['pci', 'monarchico', 'pda', 'psi', 'dc', 'pri']);
   var filtriProfessione = ottieniIdSelezionati(['esercito', 'studenti', 'operai', 'venditori', 'casalinghe', 'servizio', 'impiegati']);
   var filtriDecorazioni = ottieniIdSelezionati(['movm', 'mavm']);
   var filtriGenere = ottieniIdSelezionati(['uomini', 'donne']);
 
-  // 3. FILTRAGGIO DELLE CARD
   var cards = document.querySelectorAll('.cards-grid .card');
 
   cards.forEach(function(card) {
-    // Recupera i dettagli della card
     var cardName = card.querySelector('h4').textContent || card.querySelector('h4').innerText;
     var attrPolitica = card.getAttribute('data-politica');
     var attrProfessione = card.getAttribute('data-professione');
     var attrDecorazione = card.getAttribute('data-decorazione');
     var attrGenere = card.getAttribute('data-genere');
 
-    // Verifiche sui singoli gruppi (Se nessun elemento del gruppo è spuntato, passa il controllo)
     var matchTesto = cardName.toUpperCase().indexOf(filterText) > -1;
     var matchPolitica = filtriPolitica.length === 0 || filtriPolitica.includes(attrPolitica);
     var matchProfessione = filtriProfessione.length === 0 || filtriProfessione.includes(attrProfessione);
     var matchDecorazione = filtriDecorazioni.length === 0 || filtriDecorazioni.includes(attrDecorazione);
     var matchGenere = filtriGenere.length === 0 || filtriGenere.includes(attrGenere);
 
-    // La card si mostra solo se rispetta TUTTI i criteri contemporaneamente
     if (matchTesto && matchPolitica && matchProfessione && matchDecorazione && matchGenere) {
-      card.style.display = ""; // Rende visibile
+      card.style.display = ""; 
     } else {
-      card.style.display = "none"; // Nasconde
+      card.style.display = "none"; 
     }
   });
 }
 
-// Funzione di supporto per raccogliere gli ID delle checkbox spuntate
 function ottieniIdSelezionati(listaId) {
   var selezionati = [];
   listaId.forEach(function(id) {
