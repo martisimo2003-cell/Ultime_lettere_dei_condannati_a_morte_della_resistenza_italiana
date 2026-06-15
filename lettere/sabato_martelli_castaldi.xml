@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Sabato Martelli Castaldi (Tevere) a ... da Carceri di Via Tasso, Roma</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Sabato_Martelli_Castaldi" xml:id="Sabato_Martelli_Castaldi" sameAs="http://viaf.org/viaf/69762822">Sabato Martelli Castaldi</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1944-01-11" notAfter="1944-03-24">durante la permanenza nelle carceri di via Tasso</date>
+				<placeName ref="#Roma">Roma</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Sabato_Martelli_Castaldi">Sabato Martelli Castaldi</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Roma" sameAs="https://www.geonames.org/3169070/rome.html">
+						<placeName>Roma</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<p>
+					Quando il tuo corpo non sarà più, il tuo spirito sarà ancora più vivo nel ricordo di chi resta_
+				</p>
+				<p>
+					Fa che possa essere sempre di esempio.
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

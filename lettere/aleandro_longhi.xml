@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Aleandro Longhi (Bianchi) alla Madre scritta in data 29-07-1944 da Carceri di Marassi di Genova</title>
+				<author>
+					<persName xml:id="Aleandro_Longhi" ref="../metadati-progetto.xml#Aleandro_Longhi">Aleandro Longhi</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-07-29">29 luglio 1944</date>
+				<placeName ref="#Genova">Genova</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Aleandro_Longhi">Aleandro Longhi</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Genova" sameAs="https://www.geonames.org/3176219/genoa.html">
+						<placeName>Genova</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#dolore">Dolore</term>
+					<term ref="#vita">Vita</term>
+					<term ref="#dovere">Dovere</term>
+					<term ref="#coraggio">Coraggio</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline><placeName ref="#Genova">Marassi</placeName>, <date when="1944-07-29">29 luglio 1944</date></dateline>
+					<salute>Cara mamma,</salute>
+				</opener>
+				<p>
+					Mi devi perdonare di questo grande <rs type="concept" ref="#dolore">dolore</rs> che ti reco. Lo sai io sono sempre stato comunista, e per questo devo pagare con la <rs type="concept" ref="#vita">vita</rs>.
+				</p> 
+				<p>
+					Cara mamma non devi piangere, e devi essere forte, come sono forte io. Io ho fatto sempre il mio <rs type="concept" ref="#dovere">dovere</rs> di operaio, non ho mai fatto male a nessuno, in questo momento non devo rimproverarmi niente.
+				</p>
+				<p>
+					Un giorno ho visto Eugenio a <placeName ref="#Genova">Genova</placeName>, mi rincresce che non abbia potuto venire a trovarti.</p>
+				<p>Il pensiero è tutto per te e per i miei fratelli.
+				</p>
+				<p>
+					Ho parlato con il reverendo mi promise di venirti a trovare, per farti <rs type="concept" ref="#coraggio">coraggio</rs>, lui ti può dire la mia calma.
+				</p>
+				<p>
+					Il Partito mi diede degli incarichi che feci tutto il possibile di assolvere.
+				</p>
+				<p>
+					Mi ero impegnato di fare uscire <title level="j" type="newspaper">l’Unità</title> e sono riuscito a stampare il primo numero.
+				</p>
+				<closer>
+					<salute>Tanti saluti e baci a tutti, Eugenio, Osvaldo, Nello e alla piccola Silvana e Rina, Tanti baci a Vittoria, Ettore e suoi figli, tanti baci a zio Giuseppe e sua moglie e figli. Cara mamma; tanti baci</salute>
+					<signed>Tuo figlio <persName ref="#Aleandro_Longhi">Aleandro</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

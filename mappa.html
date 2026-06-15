@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lettere dei condannati a morte della Resistenza</title>
+  <link rel="stylesheet" type="text/css" href="mappa.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Resistenza Italiana</div>
+
+    <div class="topnav">
+      <a  href="index.html">Home</a>
+      <a  href="linea_del_tempo.html">Linea del tempo</a>
+      <a class="active" href="mappa.html">Mappa</a>
+      <a href="concetti.html">Concetti</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="dati.html">Dati</a>
+    </div>
+  </header>
+
+  <div id="map"> </div>
+
+  <script>
+    var map = L.map('map').setView([44.5, 10.5], 6);
+
+    L.tileLayer(
+      'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+       maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }
+    ).addTo(map);
+
+    var gustav = L.polyline([
+    [41.23, 13.57], // foce del Garigliano (Tirreno)
+    [41.50, 13.83], // Montecassino
+    [41.73, 14.10], // Mainarde
+    [41.88, 14.60], // Abruzzo interno
+    [42.22, 14.54]  // foce del Sangro (Adriatico)
+    ], {
+        color: 'red',
+        weight: 4,
+        opacity: 0.8
+    }).addTo(map);
+
+    gustav.bindPopup(
+        "<b>Linea Gustav</b><br>" +
+        "Principale linea difensiva tedesca nell'Italia centrale, superata dagli Alleati nel maggio 1944."
+    );
+
+
+
+    var gotica = L.polyline([
+    [44.03, 10.15], // Massa
+    [44.08, 10.45], // Castelnuovo Garfagnana
+    [44.20, 11.25], // Passo della Futa
+    [44.07, 11.75], // Passo del Giogo
+    [43.85, 12.45], // Urbino
+    [43.91, 12.91]  // Pesaro
+    ], {
+     color: 'blue',
+        weight: 4,
+        opacity: 0.8
+    }).addTo(map);
+
+    gotica.bindPopup(
+        "<b>Linea Gotica</b><br>" +
+        "Principale linea difensiva tedesca nell'Italia centro-settentrionale, superata dagli Alleati nella primavera del 1945."
+    );
+
+    function creaPopup(lat, lng, colore, titolo, contenuto) {
+
+        L.circleMarker([lat, lng], {
+            radius: 8,
+            color: colore,
+            fillColor: colore,
+            fillOpacity: 0.8,
+            weight: 2
+        })
+        .addTo(map)
+        .bindPopup(
+            "<div class='popup-esecuzione'>" +
+            "<h3>" + titolo + "</h3>" +
+            contenuto +
+            "</div>"
+        );
+    }
+
+
+// ======================
+// FOSSE ARDEATINE (ROMA)
+// prima del 18 maggio 1944
+// ROSSO
+// ======================
+
+creaPopup(
+    41.8680,
+    12.4234,
+    "blue",
+    "Spalti del Forte Bravetta",
+    "<strong>Mario de Martis</strong><br>3 giugno 1944<br>" +
+    "<a href='lettere/mario_de_martis.xml'>Vai alla risorsa</a>",
+    "roma.html"
+);
+
+creaPopup(
+    41.8618,
+    12.5116,
+    "red",
+    "Fosse Ardeatine<br>",
+    "<strong>Alberto Marchesi</strong><br>24 marzo 1944<br>" +
+    "<a href='lettere/alberto_marchesi.xml'>Vai alla risorsa</a><br><br>" +
+    "<strong>Sabato Martelli Castaldi</strong><br>24 marzo 1944<br>" +
+    "<a href='lettere/sabato_martelli_castaldi.xml'>Vai alla risorsa</a><br><br>" +
+    "<strong>Giuseppe Cordero Lanza di Montezemolo</strong><br>24 marzo 1944<br>" +
+    "<a href='lettere/giuseppe_cordero_lanza_di_montezemolo'>Vai alla risorsa</a><br><br>" +
+    "<strong>Simone Simoni</strong><br>24 marzo 1944<br>" +
+    "<a href='lettere/simone_simoni.xml'>Vai alla risorsa</a>",
+    "roma.html"
+);
+
+
+// ======================
+// POLIGONO DEL MARTINETTO
+// TORINO
+// ======================
+
+creaPopup(
+    45.0703,
+    7.6869,
+    "red",
+    "Poligono del Martinetto",
+    "<strong>Eusebio Giambone</strong><br>5 aprile 1944<br>" +
+    "<a href='lettere/eusebio_giambone.xml'>Vai alla risorsa</a>",
+    "torino.html"
+);
+
+creaPopup(
+    45.0703,
+    7.7080, // le coordinate del luogo sono state leggermente modificate in modo da permettere di cliccare entrambi i pop-up
+    "blue",
+    "Poligono del Martinetto",
+    "<strong>Pietro Ferreira</strong><br>23 gennaio 1945<br>" +
+    "<a href='pietro_ferreira.html'>Vai alla risorsa</a><br><br>" +
+    "<strong>Ferruccio Valobra</strong><br>22 settembre 1944<br>" +
+    "<a href='lettere/ferruccio_valobra.xml'>Vai alla risorsa</a>",
+    "torino.html"
+);
+
+
+
+// ======================
+// PIAZZALE LORETO
+// MILANO
+// dopo il 18 maggio 1944
+// BLU
+// ======================
+
+creaPopup(
+    45.4905,
+    9.2218,
+    "blue",
+    "Piazzale Loreto",
+    "<strong>Giulio Casiraghi</strong><br>10 agosto 1944<br>" +
+    "<a href='lettere/giulio_casiraghi.xml'>Vai alla risorsa</a><br><br>" +
+    "<strong>Domenico Fiorani</strong><br>10 agosto 1944<br>" +
+    "<a href='lettere/domenico_fiorani.xml'>Vai alla risorsa</a><br><br>" +
+    "<strong>Umberto Fogagnolo</strong><br>10 agosto 1944<br>" +
+    "<a href='lettere/umberto_fogagnolo.xml'>Vai alla risorsa</a>",
+    "milano.html"
+);
+
+
+// ======================
+// FORTE SAN GIULIANO
+// GENOVA
+// ======================
+
+creaPopup(
+    44.4048,
+    8.9521,
+    "blue",
+    "Forte San Giuliano",
+    "<strong>Aleandro Longhi</strong><br>29 luglio 1944<br>" +
+    "<a href='lettere/aleandro_longhi.xml'>Vai alla risorsa</a>",
+    "genova.html"
+);
+
+
+// ======================
+// CUNEO
+// ======================
+
+creaPopup(
+    44.3845,
+    7.5427,
+    "blue",
+    "Cuneo",
+    "<strong>Maria Luisa Alessi</strong><br>26 novembre 1944<br>"+
+    "<a href='lettere/maria_luisa_alessi.xml'>Vai alla risorsa</a><br><br>"+
+    "<strong>Attilio Martinetto</strong><br>25 aprile 1945<br>"+
+    "<a href='lettere/attilio_martinetto.xml'>Vai alla risorsa</a>",
+    "cuneo.html"
+);
+
+
+// ======================
+// SAVONA
+// ======================
+
+creaPopup(
+    44.3088,
+    8.4818,
+    "blue",
+    "Fortezza del Priamar",
+    "<strong>Paola Garelli</strong><br>1 novembre 1944<br>" +
+    "<a href='lettere/paola_garelli.xml'>Vai alla risorsa</a><br><br>" +
+    "<strong>Franca Lanzone</strong><br>1 novembre 1944<br>" +
+    "<a href='lettere/franca_lanzone.xml'>Vai alla risorsa</a>",
+    "savona.html"
+);
+
+
+// ======================
+// LUCCA
+// ======================
+
+creaPopup(
+    43.8429,
+    10.5030,
+    "blue",
+    "Porta Elisa",
+    "<strong>Aldo Mei</strong><br>4 agosto 1944<br>" +
+    "<a href='lettere/aldo_mei.xml'>Vai alla risorsa</a>",
+    "lucca.html"
+);
+
+
+// ======================
+// UDINE
+// ======================
+
+creaPopup(
+    46.0711,
+    13.2348,
+    "blue",
+    "Cimitero di Udine",
+    "<strong>Luciano Pradolin</strong><br>11 febbraio 1945<br>" +
+    "<a href='lettere/luciano_pradolin.xml'>Vai alla risorsa</a>",
+    "udine.html"
+);
+
+
+// ======================
+// PAVULLO NEL FRIGNANO
+// ======================
+
+creaPopup(
+    44.3338,
+    10.8358,
+    "blue",
+    "Carceri di Pavullo",
+    "<strong>Irma Marchiani</strong><br>26 novembre 1944<br>" +
+    "<a href='lettere/irma_marchiani.xml'>Vai alla risorsa</a>",
+    "pavullo.html"
+);
+
+var legend = L.control({position: "bottomright"});
+
+legend.onAdd = function () {
+
+    var div = L.DomUtil.create("div", "legend");
+
+    div.innerHTML =
+    "<h4>Luoghi di esecuzione</h4>" +
+    "<i class='legenda-rosso'></i> Prima del 18 maggio 1944 (caduta della linea gustav, in rosso)<br>" +
+    "<i class='legenda-blu'></i> Dal 18 maggio 1944 (caduta della line agustav, in rosso) alla caduta della Linea Gotica (in blu)";
+    return div; 
+
+};
+
+legend.addTo(map);
+  </script>
+
+  <section class="pre-footer">
+
+    <div class="pre-footer-column">
+        <h3>Progetto</h3>
+        <ul>
+            <li><a href="project-plan.html">Project Plan</a></li>
+        </ul>
+    </div>
+
+    <div class="pre-footer-column">
+        <h3>Dati</h3>
+        <ul>
+            <li><a href="metadati-progetto.xml">Metadati XML/DC</a></li>
+            <li><a href="xml.html">Schema di descrizione per i dati anagrafici</a></li>
+        </ul>
+    </div>
+
+    <div class="pre-footer-column">
+        <h3>Informazioni</h3>
+        <ul>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="licenze.html">Licenze</a></li>
+        </ul>
+    </div>
+
+  </section>
+    <footer>
+      <p>
+        ©Copyrights (c) 2026 by Martina Simonelli - martina.simonelli2@studio.unibo.it
+      </p>
+    </footer>
+
+</body>
+</html>

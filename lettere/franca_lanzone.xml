@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Franca Lanzone a Mario da Savona</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Franca_Lanzone" xml:id="Franca_Lanzone">Franca Lanzone</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-11-01">1 novembre 1944</date>
+				<placeName ref="#Savona">Savona</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Franca_Lanzone">Franca Lanzone</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Savona" sameAs="https://www.geonames.org/3167022/savona.html">
+						<placeName>Savona</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#vita">Vita</term>
+					<term ref="#dovere">Dovere</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<salute>Caro Mario,</salute>
+				</opener>
+				<p>
+					sono le ultime ore della mia <rs type="concept" ref="#vita">vita</rs>, ma con questo vado alla morte senza rancore delle ore vissute.
+				</p>
+				<p>
+					Ricordati i tuoi <rs type="concept" ref="#dovere">doveri</rs> verso di me ti ricorderò sempre
+				</p>
+				<closer>
+					<signed><persName ref="#Franca_Lanzone">Franca</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

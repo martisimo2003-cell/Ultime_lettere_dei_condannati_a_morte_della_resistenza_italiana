@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Ferruccio Valobra (Capitano Rossi) a Silvia e Mirella scritta in data 22-09-1944 da Carceri giudiziarie di Torino</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Ferruccio_Valobra" xml:id="Ferruccio_Valobra">Ferruccio Valobra</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-09-22">22 settembre 1944</date>
+				<placeName ref="#Torino">Torino</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Ferruccio_Valobra">Ferruccio Valobra</persName>
+					</person>
+					<person>
+						<persName xml:id="André_Chénier" ref="http://viaf.org/viaf/39404970">André Chénier</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Torino" sameAs="https://www.geonames.org/3165524/turin.html">
+						<placeName>Torino</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keyword scheme="concept">
+					<term ref="#perdono">Perdono</term>
+					<term ref="#vita">Vita</term>
+					<term ref="#sacrificio">Sacrificio</term>
+					<term ref="#dolore">Dolore</term>
+					<term ref="#patria">Patria</term>
+					<term ref="#dio">Dio</term>
+				</keyword>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline><placeName ref="#Torino">Carceri Giudiziarie di Torino</placeName>, <date when="1944-09-22">22.9.1944</date></dateline>
+					<salute>Mie adorate Silvia e Mirella,</salute>
+				</opener>
+				<p>
+					sono stato condannato alla fucilazione senza avere potuto difendermi: cose dei tempo nostri; pazienza!
+				</p>
+				<p>
+					Ho ugualmente l’animo sereno ed altrettanto spero di voi: tu mia diletta Silvia sappi essere forte per il bene della nostra figlia; a te chieggo scusa e <rs type="concept" ref="#perdono">perdono</rs>, se non sempre sono riuscito ad essere paziente e buono come avrei dovuto esserlo con te che nella tua <rs type="concept" ref="#vita">vita</rs> ha conosciuto solo <rs type="concept" ref="#sacrificio">sacrifici</rs> ed immensa dedizione alla famiglia.
+				</p>
+				<p>
+					A Mirella invio il mio paterno saluto, con il cuore straziato di non avere potuto esserle di guida nei duri anni che l’attendono: ma sei una fanciulla intelligente e seria e non mancherai di fare la tua strada sotto la guida della Mamma che ora sostituisce anche me: sii forte e sii italiana come ho sempre richiesto al tuo cuoricino di donnina sensibile e cara.
+				</p>
+				<p>
+					Non guastare il tuo sensibile spirito e tanto tu quanto la Mamma non dimenticate di venirmi a visitare: però niente lacrime e Mira con il suo dolce sorriso porti sulla mia ultima dimora una bella rosa che innaffierà con amore e con qualcuna delle sue dolci canzoni tra le labbra; io ti benedirò e ti seguirò nei <rs type="concept" ref="#dolore">dolori</rs> e nelle gioie che ti auguro ancora numerose nella tua vita: avrai figli; a quelli insegnerai che il nonno è stato un forte alpino e che ha saputo anche morire da "scarpone" pensando che chi per la <rs type="concept" ref="#patria">Patria</rs> muore vissuto è assai.
+				</p>
+				<p>
+					E mentre scrivo penso tanto a Mammetta ed al suo piano; alcune note le riserberai a me ricordando che, forse per intuizione, care mi erano le pagine dell’<persName ref="#André_Chénier">Andrea Chénier</persName>, poeta sfortunato ma grande patriota.
+				</p>
+				<gap reason="omitted" resp="family"/>
+				<p>
+					Ed ora ritorno a voi mie dilette per rinnovarvi la preghiera di essere serene di fronte a tanta avversità. Spero che il mio <rs type="concept" ref="#sacrificio">sacrificio</rs> come quello dei miei compagni serva a darvi un migliore domani</rs>, in un’Italia più bella quale io e voi abbiamo sempre agognato nel più profondo del nostro animo.
+				</p>
+				<p>
+					Non vi voglio imporre il soggiorno piuttosto qui che altrove: lascio al giudizio di Mamma che farà per il meglio: siatemi soltanto vicine di frequente e pensate con amore a Papà sfortunato. E se verrete da me, come dicevo, niente pianti ma sorrisi; tutto al più solo due piccole lacrimucce sulla tomba; scenderanno a me e riscalderanno ancora il mio povero cuore per dar ritornare in su una bella foglia verde ed un 
+						<q type="song">"fiorellin d’amore"</q>
+				 come vuole la nostra bella canzone alpina.
+				</p>
+				<closer>
+					<salute>Che mi sia concesso da <rs type="concept" ref="#dio">Dio</rs> di potervi seguire e benedire come vi meritate</salute>
+					<signed><persName ref="#Ferruccio_Valobra">Aff.mo papà</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

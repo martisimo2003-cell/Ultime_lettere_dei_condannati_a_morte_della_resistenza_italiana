@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Alberto Marchesi al Figlio da Carcere di Via Tasso, Roma</title>
+				<author>
+					<persName xml:id="Alberto_Marchesi" ref="../metadati-progetto.xml#Alberto_Marchesi">Alberto Marchesi</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1944-03-12" notAfter="1944-03-24">durante la permanenza nelle carceri di via Tasso</date>
+				<placeName ref="#Roma">Roma</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Alberto_Marchesi">Alberto Marchesi</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Roma" sameAs="https://www.geonames.org/3169070/rome.html">
+						<placeName>Roma</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<salute>A mio figlio Giorgio</salute>
+				</opener>
+				<p>
+					Abbi cura e stringiti a Mamma.
+				</p>
+				<p>
+					Abbi cura di Mamma.
+				</p>
+				<closer>
+					<signed>Tuo Papà <persName ref="#Alberto_Marchesi">Alberto</persName> che non rivedrai più - <persName ref="#Alberto_Marchesi">Alberto</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

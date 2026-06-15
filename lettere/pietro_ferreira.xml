@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Pietro Ferreira (Pedro) alla Mamma, Papà ed Ico scritta in data 22-01-1945 da Carceri di via Asti,Torino</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Pietro_Ferreira" xml:id="Pietro_Ferreira" sameAs="http://viaf.org/viaf/8295175417522304080007">Pietro Ferreira</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1945-01-22">22 gennaio 1945</date>
+				<placeName ref="#Torino">Torino</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Pietro_Ferreira">Pietro Ferreira</persName>
+					</person>
+					<person>
+						<persName xml:id="Emilio_Alessandro_Bandiera" sameAs="http://viaf.org/viaf/307351656">Emilio Alessandro Bandiera</persName>
+					</person>
+					<person>
+						<persName xml:id="Attilio_Bandiera" sameAs="http://viaf.org/viaf/37713672">Attilio Bandiera</persName>
+					</person>
+					<person>
+						<persName xml:id="Ciro_Menotti" sameAs="http://viaf.org/viaf/88725379">Ciro Menotti</persName>
+					</person>
+					<person>
+						<persName xml:id="Guglielmo_Oberdan" sameAs="http://viaf.org/viaf/30478831">Guglielmo Oberdan</persName>
+					</person>
+					<person>
+						<persName xml:id="Cesare_Battisti" sameAs="http://viaf.org/viaf/19640">Cesare Battisti</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Torino" sameAs="https://www.geonames.org/3165524/turin.html">
+						<placeName>Torino</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#dolore">Dolore</term>
+					<term ref="#dovere">Dovere</term>
+					<term ref="#perdono">Perdono</term>
+					<term ref="#vita">Vita</term>
+					<term ref="#patria">Patria</term>
+					<term ref="#dio">Dio</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline>Dalle <placeName ref="#Torino">Carceri di via Asti Torino</placeName>, <date when="1945-01-22">22-01-1945</date>, <time when="22:00:00">ore 22</time>
+					</dateline>
+					<salute>Carissimi Mamma, Papà, ed Ico,</salute>
+				</opener>
+				<p>
+					quando vi giungerà questa mia lettera sarete già messi a conoscenza della sventura che si è abbattuta su di voi. Immagino il vostro <rs type="concept" ref="#dolore">dolore</rs> e la vostra disperazione; immagino le lacrime e la desolazione, ma dopo, quando gli occhi saranno asciugati dal pianto, il singhiozzo vi si sarà calmato nella gola e non avrete più tremula la mano, vi verrà la forza di leggere queste righe. Cari, cari, cari miei famigliari, quanti <rs type="concept" ref="#dolore">dolori</rs> e quante pene vi ho procurato in questo miei ventitré anni di vita! Quanto vi ho trascurato, quante legittime consolazioni non vi ho date; quante delusioni vi ho procurate !
+				</p> 
+				<p>
+					Se domattina all’alba, quando impalato davanti al plotone di esecuzione, col volto irradiato di luce per la voluttà del martirio nell’attesa del segnale di "fuoco!" un’ombra di tristezza attraverserà lo schermo dei miei pensieri, quest’ombra di tristezza sarà non il rammarico di dover abbandonare la vita ventitreenne, ma il pensiero del <rs type="concept" ref="#dolore">dolore</rs> che la mia scomparsa procurerà a voi, miei cari, miei adorati; ed il rammarico di non aver fatto per voi tutto ciò che i miei <rs type="concept" ref="#dovere">doveri</rs> di figlio e di fratello mi imponevano di fare.
+				</p> 
+				<p>
+					Ed è per questo che poche ore prima che venga messa la parola fine a questa mia breve ma intensissima esistenza, voglio inginocchiarmi ai vostri piedi Mamma, Papà e Ico e chiedervi <rs type="concept" ref="#perdono">perdono</rs> del male che vi ho fatto e del bene che non vi ho procurato.- Mamma, cara Mamma, tu tanto buona, tanto cara, tanto dolce, tanto modesta e tanto semplice; la tua <rs type="concept" ref="#vita">vita</rs> è stata un calvario e il tuo cammino un sentiero cosparso di sterpi e di spine.
+				</p> 
+				<p>
+					Avrei dovuto io metter fine alle tue fatiche, ai tuoi <rs type="concept" ref="#dolore">dolori</rs>, ai tuoi stenti e alle tue pene col consacrare a te tutto me stesso, col consolarti delle mie premure e del mio amore, e invece volli consacrarmi ad una carriera che mi avrebbe tenuto sempre lontano da te, e lontano sempre rimasi procurandoti l’amarezza ed il <rs type="concept" ref="#dolore">dolore</rs> della solitudine...ed ora...... e tu, mio buon papà, tanto ruvido e semplice, ma tanto buono e generoso: ligio al <rs type="concept" ref="#dovere">dovere</rs> sino allo scrupolo; caro papà, come ti consolerai ?..... E Ico, caro Ico, fratello mio, come posso rassegnarmi io al pensiero di farti piangere ancora? ........... Ma bisogna, bisogna reagire! Reagire onde possiate continuare la vostra <rs type="concept" ref="#vita">vita</rs> anche nel <rs type="concept" ref="#dolore">dolore</rs> e lasciar correre i giorni, i mesi e gli anni finché il tempo, come l’onda del mare che le pietre smussa, riduce e trasforma in sabbia, non attutirà il <rs type="concept" ref="#dolore">dolore</rs> e lo renderà sopportabile fino a trasformarlo in un doloroso ricordo. Ma maggiore sarà la possibilità di reazione al <rs type="concept" ref="#dolore">dolore</rs> se penserete che il vostro figlio e fratello è morto come i <persName ref="#Emilio_Alessandro_Bandiera #Attilio_Bandiera">fratelli Bandiera</persName>, <persName ref="#Ciro_Menotti">Ciro Menotti</persName>, <persName ref="#Guglielmo_Oberdan">Oberdan</persName>, e <persName ref="#Cesare_Battisti">Battisti</persName> colla fronte rivolta verso il sole ove attinse sempre forza e calore; è morto per la <rs type="concept" ref="#patria">Patria</rs> alla quale ha dedicato tutta la sua vita; è morto per l’onore perché non ha mai tradito il suo giuramento; è morto per la libertà e la giustizia che trionferanno pure un giorno quando sarà passata questa bufera e quando sulle campagne devastate e le città distrutte volerà la colomba recante l’ulivo della pace, dell’operosità e della concordia.
+				</p>
+				<p>
+				    Ed ora vi saluto, mamma, papà ed Ico; mi accingo a prepararmi all’istante in cui dovrò comparire dinnanzi al tribunale di <rs type="concept" ref="#dio">Dio</rs> ben più giusto del tribunale degli uomini. E quando sarò arrivato vicino a Gesù, mamma, pregherò tanto per te, affinché il <rs type="concept" ref="#dolore">dolore</rs> non ti consumi e non peggiori la tua già mal ferma salute.
+				</p>
+				<p>
+					- Vi unisco una lettera per Boccalero, Enrico ecc. e un’altra per Pierina, il mio primo amore, che potete consegnare a qualcuno dei miei amici il quale si incaricherà poi di farla recapitare.
+				</p>
+				<p>
+					- Ed ora addio, miei cari, pregherò di lassù per la vostra felicità dopo il <rs type="concept" ref="#dolore">dolore</rs>.
+				</p>
+				<closer>
+					<salute>Tanti baci ed abbracci vostro</salute> 
+					<signed>
+						<persName ref="#Pietro_Ferreira">Pedro</persName>
+					</signed>
+					<time when="00:00:00">ore 24</time>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

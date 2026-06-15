@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Aldo Mei ai genitori scritta in data 4-08-1944 da Lucca</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Aldo_Mei" xml:id="Aldo_Mei" sameAs="http://viaf.org/viaf/307333499">Aldo Mei</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-08-04">4 agosto 1944</date>
+				<placeName ref="#Lucca">Lucca</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Aldo_Mei">Aldo Mei</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Lucca" sameAs="https://www.geonames.org/3174530/lucca.html">
+						<placeName>Lucca</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#coscienza">Coscienza</term>
+					<term ref="#amore">Amore</term>
+					<term ref="#dio">Dio</term>
+					<term ref="#perdono">Perdono</term>
+					<term ref="#sacrificio">Sacrificio</term>
+					<term ref="#vita">Vita</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline><date when="1944-08-04">4 agosto 1944</date></dateline>
+					<salute>Babbo e Mamma,</salute>
+				</opener>
+				<p>
+					state tranquilli – sono sereno in quest’ora solenne. In <rs type="concept" ref="#coscienza">coscienza</rs> non ho commesso delitti. Solamente ho amato come mi è stato possibile. Condanna a morte: – 1º per aver protetto e nascosto un giovane di cui volevo salvare l’anima. 2º per aver amministrato i sacramenti ai partigiani, e cioè per aver fatto il prete. Il terzo motivo non è nobile come i precedenti – aver nascosto la radio.
+				</p>
+				<p>
+					Muoio travolto dalla tenebrosa bufera dell’odio io che non ho avuto vivere che per <rs type="concept" ref="#amore">amore</rs>! 
+						<q><foreign xml:lang="la">«Deus Charitas est»</foreign></q>
+				 	e <rs type="concept" ref="#dio">Dio</rs> non muore. Non muore l’<rs type="concept" ref="#amore">Amore</rs>! Muoio pregando per coloro stessi che mi uccidono. Ho già sofferto un poco per loro....È l’ora del grande <rs type="concept" ref="#perdono">perdono</rs> di <rs type="concept" ref="#dio">Dio</rs>! Desidero avere misericordia; per questo abbraccio l’intero mondo rovinato dal peccato – in uno spirituale abbraccio di misericordia. Che il Signore accetti il <rs type="concept" ref="#sacrificio">sacrificio</rs> di questa piccola insignificante <rs type="concept" ref="#vita">vita</rs> in riparazione di tanti peccati – e per la santificazione dei sacerdoti.
+				</p>
+				<p>
+					Oh! la santificazione dei sacerdoti. Oggi stesso avrei dovuto celebrare Messa per questa intenzione – invece di offrire Gesú – offro me a Lui, perché faccia tutti santi i suoi ministri, tutti apostoli di carità – e il mio pensiero va anche ai confratelli del Vicariato, che non ho edificato e aiutato come avrei dovuto. Gliene domando umilmente <rs type="concept" ref="#perdono">perdono</rs>. Mi ricordino tutti al Signore. Sia dato a ciascuno un’offerta di 75 lire per una applicazione di S. Messa a suffragio della povera anima mia.
+				</p>
+				<p>
+					Almeno 100 Messe che siano celebrate pei riparare eventuali omissioni e manchevolezze e a suffragio della povera anima mia.
+				</p>
+				<p>
+					A Basilio – Beppe e loro mogli e figli carissimi – alla Nonna e Argia – alla zia Annina, Carolinn, Livia, Giorgina – Dante, Silvio, Annunziato, ecc., e a tutti i parenti – a tutti i conoscenti, a tutti i Ruotesi, cosa dirò? Quello che ho ripetutamente detto ai miei figli di adozione, i Fianesi. Conservatevi tutti nella grazia del Signore Gesú Cristo – perché questo solamente conta quando ci si trova davanti al maestoso passo della morte – e così tutti vogliamo rivederci e starcene indissolubilmente congiunti nella gioia vera e perfetta della unione eterna con <rs type="concept" ref="#dio">Dio</rs> in cielo.
+				</p>
+				<p>
+					Non più carta – all’infuori di questa busta – e anche la luce sta per venir meno. Domani festa della Madonnapotrò vederne il volto materno? Sono indegno di tanta fortuna. Anime buone pregate voi tutte perché mi sia concessa presto – prestissimo tanta fortuna!
+				</p>
+				<p>
+					Anche in questo momento sono passati ad insultarmi – 
+						<q><foreign xml:lang="la">«Dimitte illis – nesciunt quid faciunt».</foreign></q>
+					Signore che venga il Vostro regno! Mi si tratta come traditore – assassino. Non mi pare di aver voluto male a nessuno – ripeto a nessuno – mai – che se per caso avessi fatto a qualcuno qualcosa di male – io qui della mia prigione – in ginocchio davanti al Signore – ne domando umilmente <rs type="concept" ref="#perdono">perdono</rs>. Al Sacerdote che mi avviò al Seminario D. Ugo Sorbi il mio saluto di arrivederci al cielo. Ai carissimi Superiori del Seminario, specialmente a Mons. Malfatti e al Padre Spirituale D. Giannotti – l’invito che mi assistano nel punto più decisivo della mia esistenza – la morte – mentre prego il Signore a ricompensarli centuplicatamente come sa far Lui.
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

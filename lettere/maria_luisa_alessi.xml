@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Maria Luisa Alessi (Marialuisa) ai familiari scritta in data 14-11-1944 da Cuneo</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Maria_Luisa_Alessi" xml:id="Maria_Luisa_Alessi">Maria Luisa Alessi</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-11-14">14 novembre 1944</date>
+				<placeName ref="#Cuneo">Cuneo</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="Maria_Luisa_Alessi">Maria Luisa Alessi</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Cuneo" sameAs="https://www.geonames.org/3177700/cuneo.html">
+						<placeName>Cuneo</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline><placeName ref="#Cuneo">Cuneo</placeName>, <date when="1944-11-14">14.11.1944</date></dateline>
+				</opener>
+				<p>
+					Come già sarete a conoscenza, sono stata prelevata dalla Brigata Nera: mi trovo a <placeName ref="#Cuneo">Cuneo</placeName> nelle scuole, sto bene e sono tranquilla.
+				</p>
+				<p>
+					Prego solo non fare tante chiacchiere sul mio conto, e di allontanare da voi certe donne alle quali io debbo la carcerazione.
+				</p>
+				<p>
+					Solo questa sicurezza mi può far contenta, e sopra tutto rassegnata alla mia sorte. Anche voi non preoccupatevi, io so essere forte.
+				</p>
+				<p>
+					Vi penso sempre e vi sono vicino.
+				</p>
+				<closer>
+					<salute>Tante affettuosità.</salute>
+					<signed><persName ref="#Maria_Luisa_Alessi">Maria Luisa</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

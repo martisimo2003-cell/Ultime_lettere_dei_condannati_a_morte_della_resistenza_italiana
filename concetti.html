@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lettere dei condannati a morte della Resistenza</title>
+  <link rel="stylesheet" type="text/css" href="concetti.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Resistenza Italiana</div>
+
+    <div class="topnav">
+      <a  href="index.html">Home</a>
+      <a href="linea_del_tempo.html">Linea del tempo</a>
+      <a href="mappa.html">Mappa</a>
+      <a class="active" href="concetti.html">Concetti</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="dati.html">Dati</a>
+    </div>
+  </header>
+
+  <section class="concetti">
+
+    <h1>Esplora i concetti</h1>
+
+    <p class="intro">
+        Nelle lettere della collezione si possono trovare concetti e tematiche ricorrenti che si riferiscono alla religione, a valori morali, a ideali collettivi oppure all'esperienza individuale. La dimensione dei rettangoli è proporzionale al numero di lettere in cui compare ciascun concetto. Seleziona un concetto per visualizzare le lettere in cui compare.
+    </p>
+
+    <div class="contenitore-treemap">
+
+    <div class="tile dio rosso-scuro" data-concept="dio">
+        <span>Dio</span>
+        <small>8 lettere</small>
+    </div>
+
+    <div class="tile vita rosso-chiaro" data-concept="vita">
+        <span>Vita</span>
+        <small>8 lettere</small>
+    </div>
+
+    <div class="tile dolore rosso-chiaro" data-concept="dolore">
+        <span>Dolore</span>
+        <small>6 lettere</small>
+    </div>
+
+    <div class="tile dovere rosso" data-concept="dovere">
+        <span>Dovere</span>
+        <small>4 lettere</small>
+    </div>
+
+    <div class="tile perdono rosso-scuro" data-concept="perdono">
+        <span>Perdono</span>
+        <small>4 lettere</small>
+    </div>
+
+    <div class="tile fede rosso-scuro" data-concept="fede">
+        <span>Fede</span>
+        <small>3 lettere</small>
+    </div>
+
+    <div class="tile coscienza rosso" data-concept="coscienza">
+        <span>Coscienza</span>
+        <small>3 lettere</small>
+    </div>
+
+    <div class="tile coraggio rosso" data-concept="coraggio">
+        <span>Coraggio</span>
+        <small>3 lettere</small>
+    </div>
+
+    <div class="tile ideale rosso-medio" data-concept="ideale">
+        <span>Ideale</span>
+        <small>3 lettere</small>
+    </div>
+
+    <div class="tile patria rosso-medio" data-concept="patria">
+        <span>Patria</span>
+        <small>3 lettere</small>
+    </div>
+
+    <div class="tile sacrificio rosso-medio" data-concept="sacrificio">
+        <span>Sacrificio</span>
+        <small>2 lettere</small>
+    </div>
+
+    <div class="tile avvenire rosso-chiaro" data-concept="avvenire">
+        <span>Avvenire</span>
+        <small>2 lettere</small>
+    </div>
+
+</div>
+
+    <div id="risultati">
+
+        <h2>Seleziona un concetto</h2>
+
+        <p>
+            Le lettere associate al concetto selezionato appariranno qui.
+        </p>
+
+    </div>
+
+</section>
+
+<script>
+
+const concetti = {
+
+    dio: `
+        <h2>Dio</h2>
+        <ul>
+            <li>
+                <a href="lettere/eusebio_giambone.xml">
+                    Eusebio Giambone
+                </a>
+            </li>
+            <li>
+                <a href="lettere/aldo_mei.xml">
+                    Aldo Mei
+                </a>
+            </li>
+            <li>
+                <a href="lettere/attilio_martinetto.xml">
+                    Attilio Martinetto
+                </a>
+            </li>
+            <li>
+                <a href="lettere/ferruccio_valobra.xml">
+                    Ferruccio Valobra
+                </a>
+            </li>
+            <li>
+                <a href="lettere/giuseppe_cordero_lanza_di_montezemolo.xml">
+                    Giuseppe Corder Lanza di Montezemolo
+                </a>
+            </li>
+            <li>
+                <a href="lettere/irma_marchiani.xml">
+                    Irma Marchiani
+                </a>
+            </li>
+            <li>
+                <a href="lettere/luciano_pradolin.xml">
+                    Luciano Pradolin
+                </a>
+            </li>
+            <li>
+                <a href="lettere/pietro_ferreira.xml">
+                    Pietro Ferreira
+                </a>
+            </li>
+        </ul>
+    `,
+
+    vita: `
+        <h2>Vita</h2>
+        <ul>
+          <li>
+            <a href="lettere/aldo_mei.xml">
+              Aldo Mei
+            </a>
+          </li>
+          <li>
+            <a href="lettere/aleandro_longhi.xml">
+              Aleandro Longhi
+            </a>
+          </li>
+          <li>
+              <a href="lettere/attilio_martinetto.xml">
+                  Attilio Martinetto
+              </a>
+          </li>
+          <li>
+              <a href="lettere/eusebio_giambone.xml">
+                Eusebio Giambone
+              </a>
+          </li>
+          <li>
+              <a href="lettere/ferruccio_valobra.xml">
+                Ferruccio Valobra
+              </a>
+          </li>
+          <li>
+            <a href="lettere/franca_lanzone.xml">
+              Franca Lanzone
+            </a>
+          </li>
+          <li>
+              <a href="lettere/irma_marchiani.xml">
+                Irma Marchiani
+              </a>
+          </li>
+          <li>
+              <a href="lettere/pietro_ferreira.xml">
+                Pietro Ferreira
+              </a>
+            </li>
+        </ul>
+    `,
+
+    dovere: `
+        <h2>Dovere</h2>
+        <ul>
+          <li>
+            <a href="lettere/aleandro_longhi.xml">
+              Aleandro Longhi
+            </a>
+          </li>
+          <li>
+            <a href="lettere/franca_lanzone.xml">
+              Franca Lanzone
+            </a>
+          </li>
+          <li>
+            <a href="lettere/irma_marchiani.xml">
+              Irma Marchiani
+            </a>
+          </li>
+          <li>
+            <a href="lettere/pietro_ferreira.xml">
+              Pietro Ferreira
+            </a>
+          </li>
+        </ul>
+    `
+      ,
+
+    coscienza: `
+        <h2>Coscienza</h2>
+        <ul>
+            <li>
+                <a href="lettere/aldo_mei.xml">
+                    Aldo Mei
+                </a>
+            </li>
+            <li>
+              <a href="lettere/eusebio_giambone.xml">
+                Eusebio Giambone
+              </a>
+          </li>
+          <li>
+            <a href="lettere/luciano_pradolin.xml">
+              Luciano Pradolin
+            </a>
+          </li>
+        </ul>
+    `,
+
+    perdono: `
+        <h2>Perdono</h2>
+        <ul>
+            <li>
+              <a href="lettere/aldo_mei.xml">
+                Aldo Mei
+              </a>
+            </li>
+            <li>
+              <a href="lettere/ferruccio_valobra.xml">
+                Ferruccio Valobra
+              </a>
+            </li>
+            <li>
+              <a href="lettere/paola_garelli.xml">
+                Paola Garelli
+              </a>
+            </li>
+            <li>
+              <a href="lettere/pietro_ferreira.xml">
+                Pietro Ferreira
+              </a>
+            </li>
+        </ul>
+    `,
+
+    sacrificio: `
+        <h2>Sacrificio</h2>
+        <ul>
+            <li>
+                <a href="lettere/aldo_mei.xml">
+                    Aldo Mei
+                </a>
+            </li>
+            <li>
+                <a href="lettere/ferruccio_valobra.xml">
+                    Ferruccio Valobra
+                </a>
+            </li>
+        </ul>
+    `,
+
+    dolore: `
+        <h2>Dolore</h2>
+        <ul>
+            <li>
+                <a href="lettere/aleandro_longhi.xml">
+                    Aleandro Longhi
+                </a>
+            </li>
+            <li>
+                <a href="lettere/attilio_martinetto.xml">
+                    Attilio Martinetto
+                </a>
+            </li>
+            <li>
+              <a href="lettere/eusebio_giambone.xml">
+                Eusebio Giambone
+              </a>
+          </li>
+          <li>
+            <a href="lettere/ferruccio_valobra.xml">
+              Ferruccio Valobra
+            </a>
+          </li>
+          <li>
+            <a href="lettere/luciano_pradolin.xml">
+              Luciano Pradolin
+            </a>
+          </li>
+          <li>
+              <a href="lettere/pietro_ferreira.xml">
+                Pietro Ferreira
+              </a>
+          </li>
+        </ul>
+    `,
+
+    coraggio: `
+        <h2>Coraggio</h2>
+        <ul>
+            <li>
+                <a href="lettere/aleandro_longhi.xml">
+                    Aleandro Longhi
+                </a>
+            </li>
+            <li>
+                <a href="lettere/attilio_martinetto.xml">
+                    Attilio Martinetto
+                </a>
+            </li>
+            <li>
+              <a href="lettere/eusebio_giambone.xml">
+                Eusebio Giambone
+              </a>
+          </li>
+        </ul>
+    `,
+
+    fede: `
+        <h2>Fede</h2>
+        <ul>
+          
+            <li>
+                <a href="lettere/attilio_martinetto.xml">
+                    Attilio Martinetto
+                </a>
+            </li>
+            <li>
+                <a href="lettere/giulio_casiraghi.xml">
+                    Giulio Casiraghi
+                </a>
+            </li>
+            <li>
+              <a href="lettere/luciano_pradolin.xml">
+                Luciano Pradolin
+              </a>
+            </li>
+        </ul>
+    `,
+
+    avvenire: `
+        <h2>Avvenire</h2>
+        <ul>
+            <li>
+                <a href="lettere/attilio_martinetto.xml">
+                    Attilio Martinetto
+                </a>
+            </li>
+            <li>
+              <a href="lettere/eusebio_giambone.xml">
+                Eusebio Giambone
+              </a>
+          </li>
+        </ul>
+    `,
+
+    ideale: `
+        <h2>Ideale</h2>
+        <ul>
+            <li>
+                <a href="lettere/eusebio_giambone.xml">
+                    Eusebio Giambone
+                </a>
+            </li>
+            <li>
+                <a href="lettere/irma_marchiani.xml">
+                    Irma Marchiani
+                </a>
+            </li>
+            <li>
+              <a href="lettere/luciano_pradolin.xml">
+                Luciano Pradolin
+              </a>
+            </li>
+        </ul>
+    `,
+
+    patria: `
+        <h2>Patria</h2>
+        <ul>
+            <li>
+                <a href="lettere/ferruccio_valobra.xml">
+                    Ferruccio Valobra
+                </a>
+            </li>
+            <li>
+                <a href="lettere/pietro_ferreira.xml">
+                    Pietro Ferreira
+                </a>
+            </li>
+            <li>
+                <a href="lettere/simone_simoni.xml">
+                    Simone Simoni
+                </a>
+            </li>
+        </ul>
+    `,
+};
+
+document.querySelectorAll(".tile").forEach(tile => {
+
+    tile.addEventListener("click", () => {
+
+        const concetto = tile.dataset.concept;
+
+        document.getElementById("risultati").innerHTML =
+            concetti[concetto] ||
+            `<h2>${tile.textContent}</h2>
+             <p>Nessuna lettera associata.</p>`;
+
+        document.getElementById("risultati").scrollIntoView({
+            behavior: "smooth"
+
+        });
+
+    });
+
+});
+
+</script>
+
+  <section class="pre-footer">
+
+    <div class="pre-footer-column">
+        <h3>Progetto</h3>
+        <ul>
+            <li><a href="project-plan.html">Project Plan</a></li>
+        </ul>
+    </div>
+
+    <div class="pre-footer-column">
+        <h3>Dati</h3>
+        <ul>
+            <li><a href="metadati-progetto.xml">Metadati XML/DC</a></li>
+            <li><a href="xml.html">Schema di descrizione per i dati anagrafici</a></li>
+        </ul>
+    </div>
+
+    <div class="pre-footer-column">
+        <h3>Informazioni</h3>
+        <ul>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="licenze.html">Licenze</a></li>
+        </ul>
+    </div>
+
+  </section>
+    <footer>
+      <p>
+        ©Copyrights (c) 2026 by Martina Simonelli - martina.simonelli2@studio.unibo.it
+      </p>
+    </footer>
+
+</body>
+</html>

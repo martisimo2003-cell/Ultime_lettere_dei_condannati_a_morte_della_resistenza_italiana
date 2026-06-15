@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Irma Marchiani (Anty) al fratello scritta in data 10-08-1944</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Irma_Marchiani" xml:id="Irma_Marchiani" sameAs="http://viaf.org/viaf/90206995">Irma Marchiani</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-08-10">10 agosto 1944</date>
+				<placeName ref="#Sestola">Sestola</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Irma_Marchiani">Irma Marchiani</persName>
+					</person>
+					<person>
+						<persName xml:id="comandante">comandante</persName>	
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place>
+						<placeName xml:id="Sestola" sameAs="https://www.geonames.org/3166599/sestola.html">Sestola</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#ideale">Ideale</term>
+					<term ref="#dovere">Dovere</term>
+					<term ref="#dio">Dio</term>
+					<term ref="#vita">Vita</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline><placeName ref="#Sestola">Sestola, da la "Casa del Tiglio"</placeName>, <date when="1944-08-10">10 agosto 1944</date></dateline>
+					<salute>Carissimo Piero, mio adorato fratello,</salute>
+				</opener>
+				<p>
+					la decisione che oggi prendo, ma da tempo cullata, mi detta che io debba scriverti queste righe. Sono certa mi comprenderai perché tu sai benissimo di che volontà io sono, faccio, cioè seguo il mio pensiero, l’<rs type="concept" ref="#ideale">ideale</rs> che pur un giorno nostro nonno ha sentito, faccio già parte di una Formazione, e ti dirò che il mio comandante ha molta stima e fiducia in me. Spero di essere utile, spero di non deludere i miei superiori. Non ti meraviglia questa mia decisione, vero?
+				</p>
+				<p>
+					Sono certa sarebbe pure la tua, se troppe cose non ti assillassero. Bene, basta uno della famiglia e questa sono io. Quando un giorno ricevetti la risposta a una lettera di Pally che l’invitavo qui, fra l’altro mi rispose "che diritto ho io di sottrarmi al pericolo comune?" È vero, ma io non stavo qui per star calma, ma perché questo paesino piace al mio spirito, al mio cuore. Ora però tutto è triste, gli avvenimenti in corso coprono anche le cose più belle di un velo triste. Nel mio cuore si è fatta l’idea (purtroppo non da troppi sentita) che tutti più o meno è doveroso dare il suo contributo. Questo richiamo è così forte che lo sento tanto profondamente, che dopo aver messo a posto tutte le mie cose parto contenta.
+				</p>
+				<p>
+					<q><said who="#comandante">Hai nello sguardo qualcosa che mi dice che saprai comandare</said></q>,
+				mi ha detto il <persName ref="#comandante">comandante</persName>,
+					<q><said who="#comandante">la tua mente dà il massimo affidamento; donne non mi sarei mai sognato di assumere, ma tu sì</said></q>. 
+				Eppure mi aveva veduto solo due volte.
+				</p>
+				<p>
+					Saprò fare il mio <rs type="concept" ref="#dovere">dovere</rs>, se <rs type="concept" ref="#dio">Iddio</rs> mi lascierà il dono della <rs type="#vita">vita</rs> sarò felice, se diversamente non piangere e non piangete per me.
+				</p>
+				<p>
+					Ti chiedo una cosa sola: non pensarmi come una sorellina cattiva. Sono una creatura d’azione, il mio spirito ha bisogno di spaziare, ma sono tutti <rs type="concept" ref="#ideale">ideali</rs> alti e belli. Tu sai benissimo, caro fratello, certo sotto la mia espressione calma, quieta forse, si cela un’anima desiderosa di raggiungere qualche cosa, l’immobilità non è fatta per me, se i lunghi anni trascorsi mi immobilizzarono il fisico, ma la volontà non si è mai assopita. <rs type="concept" ref="#dio">Dio</rs> ha voluto che fossi più che mai pronta oggi. Pensami, caro Piero, e benedicimi. Ora vi so tutti in pericolo e del resto è un po’ dappertutto. Dunque ti saluto e ti bacio tanto tanto e ti abbraccio forte.
+				</p>
+				<closer>
+					<signed><persName ref="#Irma_Marchiani">Tua sorella Paggetto</persName></signed>
+					<salute>Ringrazia e saluta Gina.</salute>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>	

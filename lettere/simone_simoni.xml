@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Simone Simoni agli Amici</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Simone_Simoni" xml:id="Simone_Simoni">Simone Simoni</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1944-01-24" notAfter="1944-03-24">durante la prigionia nel carcere di via Tasso</date>
+				<placeName ref="#Roma">Roma</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Simone_Simoni">Simone Simoni</persName>
+					</person>
+					<person xml:id="Giuseppe_Ferrari">
+						<persName>Giuseppe Ferrari</persName> 
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Roma" sameAs="https://www.geonames.org/3169070/rome.html">
+						<placeName>Roma</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#patria">Patria</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<p>
+					<persName ref="#Simone_Simoni">Simone Simoni</persName> – cella – dodici – <persName ref="#Giuseppe_Ferrari">Giuseppe – Ferrari</persName> – due. Sono – malmenato – soffro – con – orgoglio – il – mio – pensiero – alla – <rs type="concept" ref="#patria">patria</rs> – e – alla – famiglia.
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>	

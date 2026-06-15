@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Luciano Pradolin (Goffredo) alla sorella Rina scritta in data 10-02-1945 da Udine</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Luciano_Pradolin" xml:id="Luciano_Pradolin">Luciano Pradolin</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1945-02-10">10 febbraio 1945</date>
+				<placeName ref="#Udine">Udine</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Luciano_Pradolin">Luciano Pradolin</persName>
+					</person>
+					<person>
+						<persName xml:id="Giacomo_Leopardi" ref="http://viaf.org/viaf/12311353">Giacomo Leopardi</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Udine" sameAs="https://www.geonames.org/3165072/udine.html">
+						<placeName>Udine</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keyword scheme="concept">
+					<term ref="#ideale">Ideale</term>
+					<term ref="#fede">Fede</term>
+					<term ref="#dio">Dio</term>
+					<term ref="#coscienza">Coscienza</term>
+					<term ref="#dolore">Dolore</term>
+				</keyword>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<salute>Carissima Rina,</salute>
+				</opener>
+				<p>
+					tutte le speranze sono svanite, c’è ancora da aspettare la grazia.
+				</p>
+				<p>
+					Come vedi questa è la sorte di quelli che hanno un’idea. Ma è proprio fatale che tutti coloro che hanno un’<rs type="concept" ref="#ideale">ideale</rs> debbano fare questa fine?
+				</p>
+				<p>
+					<cit>
+						<quote>"O miseri o codardi figlioli avrai"</quote>
+						<bibl>
+							<author><persName ref="#Giacomo_Leopardi">Giacomo Leopardi</persName></author>
+							<title level="m">Canti</title>
+							<title level="a">Nelle nozze della sorella Paolina</title>
+						</bibl>
+					</cit>
+				così dice il <persName ref="#Giacomo_Leopardi">Leopardi</persName>.
+				</p>
+				<p>
+					Unica cosa che mi sostiene è la <rs type="concept" ref="#fede">fede</rs> in <rs type="concept" ref="#dio">Dio</rs> e la sicurezza che la mia <rs type="concept" ref="#coscienza">coscienza</rs> è pura e che il mio <rs type="concept" ref="#ideale">ideale</rs> è Sacro.
+				</p>
+				<p>
+					Ti ringrazio per tutto quello che hai fatto per me; lo so che mi amavi molto ed io altrettanto. Lo so che soffrirai molto e ciò aumenta il mio <rs type="concept" ref="#dolore">dolore</rs>.
+				</p>
+				<p>
+					Guarda di Paolo! Mi dispiace tanto non più vederlo, lo amavo tanto;
+				</p>
+				<closer>
+					<signed><persName ref="#Luciano_Pradolin">L.</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>	
+

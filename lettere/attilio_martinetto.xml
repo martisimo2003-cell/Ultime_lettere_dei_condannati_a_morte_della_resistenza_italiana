@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Attilio Martinetto alla Moglie (ore 24 circa) scritta in data 24-04-1945 da U.P.I. di Cuneo</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Attilio_Martinetto" xml:id="Attilio_Martinetto">Attilio Martinetto</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1945-04-24">24 aprile 1945</date>
+				<placeName ref="#Cuneo">Cuneo</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Attilio_Martinetto">Attilio Martinetto</persName>
+					</person>
+					<person>
+						<persName xml:id="Victor_Hugo" sameAs="http://viaf.org/viaf/9847974">Victor Hugo</persName>
+					</person>
+					<person>
+						<persName xml:id="Botti_Eligio">Botti Eligio</persName>
+					</person>
+					<person>
+						<persName xml:id="Bracciale_Rocco">Bracciale Rocco</persName>
+					</person>
+					<person>
+						<persName xml:id="Cornaglia_Virginio">Cornaglia Virginio</persName>
+					</person>
+					<person>
+						<persName xml:id="Tomatis_Renato">Tomatis Renato</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Cuneo" sameAs="https://www.geonames.org/3177700/cuneo.html">
+						<placeName>Cuneo</placeName>
+					</place>
+					<place xml:id="Faione" sameAs="https://www.geonames.org/8978766/faione.html">
+						<placeName>Faione</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#avvenire">Avvenire</term>
+					<term ref="#fede">Fede</term>
+					<term ref="#dio">Dio</term>
+					<term ref="#vita">Vita</term>
+					<term ref="#coraggio">Coraggio</term>
+					<term ref="#dolore">Dolore</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text xml:id="lettera_Attilio_1">
+				<body>
+					<div type="letter">
+						<opener>
+							<dateline><date when="1945-04-24">24-4-45</date> <time when="00:00:00">ore 24 circa</time> dall’<placeName>U.P.I.</placeName></dateline>
+							<salute>Amore mio diletto,</salute>
+						</opener>
+						<p>
+							E’ <time when="00:00:00">mezzanotte</time> e ancora stiamo chiacchierando allegramente. Siamo tutti cinque assieme e si scherza quasi allegramente. Come già ti ho detto è stato qui D. Monge a cui ho consegnato il portafogli e gli indumenti, D. Oggero, parroco di S. Ambrogio (Cappellano delle Carceri) e D. Panori. Ci siamo confessati e speriamo quest’ultimo ci porti ancora la Comunione domattina.
+						</p>
+						<p>
+							Anna Maria cara, forse tu piangerai a leggere questa mia. Se piangi per te, per il tuo <rs type="concept" ref="#avvenire">avvenire</rs> troncato, passi, lo comprendo, ma se piangi per me, no! Ti sbagli. Anna Maria, nella tua ultima mi esortavi ad avere <rs type="concept" ref="#fede">fede</rs> in <rs type="concept" ref="#dio">Dio</rs>; non credi quanto mi senta vicino a Lui in questi momenti! La morte? Eterno spauracchio di noi mortali! Spauracchio? Sì, ma per la materia, che m’importa! La materia? E cosa può la materia?
+						</p>
+						<p>
+							Quante volte nei momenti felici ho pensato ad un momento simile! Ricordavo proprio stasera di aver letto <title level="m">"L’ultimo giorno di un condannato"</title> di <persName ref="#Victor_Hugo">Victor Hugo</persName> che forse si trova ancora a <placeName ref="#Faione">Faione</placeName> tra i miei libri.
+						</p>
+						<p>
+							Tante volte basandomi su esso ho pensato al momento di morire. Quanto ero sciocco!!! Solo ora lo comprendo. Sai Anna Maria cosa rimane all’ultimo di tutto? Solo quello che è santo e puro della vita. L’affetto dei genitori (in essi tua madre), l’affetto di quanti mi vollero bene e che ora avvalori sotto un’altra luce; la luce che ti proviene dall’affetto per <rs type="concept" ref="#dio">Dio.</rs>
+						</p>
+						<p>
+							Amore mio, ti ho sempre amata tanto, tu lo sai, ora ti amo più che mai perché ora maggiormente si accostano i due amori, per te e per <rs type="concept" ref="#dio">Dio</rs>.
+						</p>
+						<p>
+							Anna Maria, forse mi dirai che potevo ben dirti altre parole di maggior conforto, lo so, ma quale conforto può essere maggiore per te se non il sapere con quanta serenità tuo marito si prepara a veder <rs type="concept" ref="#dio">Dio</rs>.
+						</p>
+						<p>
+							Sono solo contento che <rs type="concept" ref="#dio">Dio</rs> ha avuto pietà di me e ancora all’ultimo momento mi ha mandato un sacerdote. Anna Maria sapessi mai cos’è la <rs type="concept" ref="#vita">vita</rs> vista dalla soglia dell’eternità, quale miseria, te lo posso ben dire io con quale orrore si guarda al nostro passato! Se non fosse quella stessa <rs type="concept" ref="#fede">fede</rs> che ci fa provare simile orrore, a sostenerci, che si farebbe mai? La <rs type="concept" ref="#fede">fede</rs> ci fa provare orrore, ma nell’istante stesso, ci dice che <rs type="concept" ref="dio">Dio</rs> è infinitamente grande. E allora si implora la sua misericordia. Quando finalmente hai provato la sensazione della sua misericordia e l’hai provata con maggior <rs type="concept" ref="#fede">fede</rs> delle altre volte, poiché sai che è l’ultima volta che <rs type="concept" ref="dio">Dio</rs> ti dice : 
+							<q><foreign xml:lang="la">Ego te absolvo..."</foreign></q>
+						</p>
+						<p>
+							Ecco che guardi sicuro davanti a te e non temi più! Sono sicuro che tu e mamma alle <time when="07:00:00">7</time> pregherete quasi certamente per me, per il mio ritorno, rassegnatevi al volere di <rs type="concept" ref="dio">Dio</rs>, io a quell’ora penserò a voi che pregherete per me e morirò sereno.
+						</p>
+						<p>
+							Amore mio, dal portafogli ho trattenuto la tua fotografia e quell’immagine in cartapecora che mi desti quando eri anche tu in carcere.
+						</p>
+						<p>
+							Le ho nella tasca interna della giacca, sul cuore, saranno simbolo dell’immenso affetto per te, che mi porto nella tomba. Al dito la <rs type="concept" ref="#fede">fede</rs>, la porto con me come ricordo di quella <rs type="concept" ref="#fede">fede</rs> promessati quasi un anno fa e che mai ho tradito.
+						</p>
+						<p>
+							Anche tu conservami nel cuore e soprattutto nell’anima.
+						</p>
+						<p>
+							Prega, prega, prega tanto per me, non dubitare che io pregherò tanto per te, perché <rs type="concept" ref="dio">Dio</rs> ti conceda quella felicità che purtroppo io non ti ho potuto dare, Vedi che io sono sereno, spero di esserlo anche tra poco davanti ai miei carnefici, sii forte anche tu nel tuo <rs type="concept" ref="dolore">dolore</rs> e rendi forti anche i nostri genitori.
+						</p>
+						<p>
+							Domani forse conoscerò tuo papà. Se <rs type="concept" ref="#dio">Dio</rs> mi vorrà con Lui, con tuo papà veglierò su te. Non ti dico addio;... perché come già ti ho detto fra noi non vi é addio,resta e sii la consolazione dei nostri genitori, specie di tua madre che é sola e poi...... arrivederci,
+						</p>
+						<closer>
+							<signed><persName ref="#Attilio_Martinetto">il tuo Attilio</persName></signed>
+						</closer>
+					</div>
+				</body>
+			</text>
+			<text xml:id="lettera_Attilio_2">
+				<body>
+					<div type="postscript">
+						<dateline><time when="06:00:00">Sono le 6 del mattino</time></dateline>
+						<p>
+							Aspettiamo la Comunione. Sono calmo e ti bacio di tutto cuore.
+						</p>
+						<signed><persName ref="#Attilio_Martinetto">il tuo Attilio</persName></signed>
+					</div>
+				</body>
+			</text>
+			<text xml:id="lettera_Attilio_3">
+				<body>
+					<div type="postscript">
+						<dateline><time when="07:30:00">7,30</time></dateline>
+						<p>
+							Abbiamo ricevuto la S. Comunione, mi sento forte. Ho pregato tanto. Abbiamo ricevuto la Benedizione papale.....
+						</p>
+					</div>
+				</body>
+			</text>
+			<text>
+				<body>
+					<div type="messages">
+						<p>
+							Siate forte ed abbiate <rs type="concept" ref="#fede">fede</rs>.
+						</p>
+						<closer>
+							<signed><persName ref="#Botti_Eligio">Aff.to Botti Eligio</persName></signed>
+						</closer>
+					</div>
+					<div type="messages">
+						<p>
+							Fatevi <rs type="concept" ref="coraggio">coraggio</rs>,
+						</p>
+						<closer>
+							<signed><persName ref="#Bracciale_Rocco">Bracciale Rocco</persName>,<persName ref="#Cornaglia_Virginio">Cornaglia Virginio</persName>,<persName ref="#Tomatis_Renato">Tomatis Renato</persName></signed>
+						</closer>
+					</div>
+				</body>
+			</text>
+		</group>
+	</text>
+</TEI>
+

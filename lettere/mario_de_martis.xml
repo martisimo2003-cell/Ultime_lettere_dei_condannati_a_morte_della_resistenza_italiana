@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Mario De Martis allo zio scritta in data 3-06-1944 da Roma</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Mario_De_Martis" xml:id="Mario_De_Martis">Mario De Martis</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation><date when="1944-06-03">3 giugno 1944</date>
+				<placeName ref="#Roma">Roma</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="Mario_De_Martis">Mario De Martis</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Roma" sameAs="https://www.geonames.org/3169070/rome.html">
+						<placeName>Roma</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<salute>Caro Zio,</salute>
+				</opener>
+				<p>
+					tra una mezz’ora saremo fucilati tutti e sei. Il mio pensiero corre ora a voi ed alla cara mamma che il destino non ha voluto dovessi riabbracciare.
+				</p>
+				<p>
+					Sarete voi ad avvertirli ed a dire loro che li aspetterò altrove.
+				</p>
+				<closer>
+					<salute>Saluti tanti tanto e baci a tutti dal vostro</salute>
+					<signed><persName ref="#Mario_De_Martis">Mario</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

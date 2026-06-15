@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dati e Metadati del Progetto - Resistenza Italiana</title>
+  <link rel="stylesheet" type="text/css" href="dati.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Resistenza Italiana</div>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="linea_del_tempo.html">Linea del tempo</a>
+      <a href="mappa.html">Mappa</a>
+      <a href="concetti.html">Concetti</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a class="active" href="dati.html">Dati</a>
+    </div>
+  </header>
+
+  <main class="dati-container">
+    
+    <div class="dati-intro">
+      <h1>Documentazione e Gestione dei Dati</h1>
+      <p>In questa pagina sono esposti i metadati descrittivi della collezione digitale, strutturati secondo lo standard internazionale <strong>Dublin Core (DC)</strong> e mappati nel file sorgente XML del progetto.</p>
+      <a href="metadati-progetto.xml" target="_blank" class="xml-button"> Scarica il sorgente XML/DC Completo</a>
+      <a href="metadati.csv" target="_blank" class="xml-button">Scarica i metadati degli item in formato .csv</a>
+    </div>
+
+    <section class="dati-section">
+      <h2>1. Metadati della Fonte (Dublin Core Core-Set)</h2>
+      <p class="section-desc">Questa tabella riassume le informazioni generali sulla raccolta digitalizzata.</p>
+      
+      <table class="metadata-table">
+        <thead>
+          <tr>
+            <th>Valore / Contenuto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Titolo</strong></td>
+            <td>Lettere di condannati a morte della resistenza italiana. 8 settembre 1943 - 25 aprile 1945</td>
+          </tr>
+          <tr>
+            <td><strong>Autori/Curatori</strong></td>
+            <td>Piero Malvezzi, Giovanni Pirelli, VV. AA.</td>
+          </tr>
+          <tr>
+            <td><strong>Copertura Temporale</strong></td>
+            <td>1943 - 1945 (Periodo della Resistenza)</td>
+          </tr>
+          <tr>
+            <td><strong>Lingua</strong></td>
+            <td>Italiano (it)</td>
+          </tr>
+          <tr>
+            <td><strong>Soggetti / Parole Chiave</strong></td>
+            <td>Lettere, Condannati a morte, Resistenza al nazifascismo</td>
+          </tr>
+          <tr>
+            <td><strong>Diritti d'Autore</strong></td>
+            <td>Uso scientifico e didattico non commerciale (Creative Commons)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="dati-section">
+      <h2>2. Record e Item Indicizzati</h2>
+      <p class="section-desc">Tabella strutturata contenente i dati biografici estratti dai singoli oggetti della collezione XML.</p>
+
+     <table id="metadataTable">
+  <thead>
+    <tr>
+      <th>ID Oggetto</th>
+      <th>Nome Persona (VIAF)</th>
+      <th>Nome di Battaglia</th>
+      <th>Genere</th>
+      <th>Età</th>
+      <th>Professione</th>
+      <th>Affiliazione Politica</th>
+      <th>Data Nascita</th>
+      <th>Luogo Nascita (GeoNames)</th>
+      <th>Data Esecuzione</th>
+      <th>Luogo Esecuzione (GeoNames)</th>
+      <th>Decorazioni</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>Maria_Luisa_Alessi</code></td>
+      <td>Maria Luisa Alessi</td>
+      <td>Marialuisa</td>
+      <td>Donna</td>
+      <td>33</td>
+      <td>Impiegata</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1911-05-17</td>
+      <td><a href="https://www.geonames.org/8950411/falicetto.html" target="_blank">Falicetto (Cuneo)</a></td>
+      <td>1944-11-26</td>
+      <td><a href="https://www.geonames.org/3177700/cuneo.html" target="_blank">Piazzale della stazione di Cuneo</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Giulio_Casiraghi</code></td>
+      <td>Giulio Casiraghi</td>
+      <td>—</td>
+      <td>Uomo</td>
+      <td>44</td>
+      <td>Montatore elettromeccanico</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1899-10-17</td>
+      <td><a href="https://www.geonames.org/3166598/sesto-san-giovanni.html" target="_blank">Sesto San Giovanni (Milano)</a></td>
+      <td>1944-08-10</td>
+      <td><a href="https://www.geonames.org/3173435/milan.html" target="_blank">Piazzale Loreto a Milano</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Mario_De_Martis</code></td>
+      <td>Mario De Martis</td>
+      <td>—</td>
+      <td>Uomo</td>
+      <td>23</td>
+      <td>Studente in lettere</td>
+      <td>Monarchico-badogliano</td>
+      <td>1920-11-20</td>
+      <td><a href="https://www.geonames.org/3167096/sassari.html" target="_blank">Sassari</a></td>
+      <td>1944-06-03</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Spalti del Forte Bravetta a Roma</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Pietro_Ferreira</code></td>
+      <td><a href="http://viaf.org/viaf/8295175417522304080007" target="_blank">Pietro Ferreira</a></td>
+      <td>Pedro</td>
+      <td>Uomo</td>
+      <td>23</td>
+      <td>Ufficiale in Servizio Permanente Effettivo</td>
+      <td>Partito d'Azione</td>
+      <td>1921-10-03</td>
+      <td><a href="https://www.geonames.org/3176219/genoa.html" target="_blank">Genova</a></td>
+      <td>1945-01-23</td>
+      <td><a href="https://www.geonames.org/3165524/turin.html" target="_blank">Poligono Nazionale del Martinetto a Torino</a></td>
+      <td>Medaglia d'Oro al Valor Militare</td>
+    </tr>
+    <tr>
+      <td><code>Domenico_Fiorani</code></td>
+      <td>Domenico Fiorani</td>
+      <td>Mingo</td>
+      <td>Uomo</td>
+      <td>31</td>
+      <td>Perito industriale</td>
+      <td>Partito Socialista</td>
+      <td>1913-01-24</td>
+      <td><a href="https://www.geonames.org/2659098/raron.html" target="_blank">Raron (Svizzera)</a></td>
+      <td>1944-08-10</td>
+      <td><a href="https://www.geonames.org/3173435/milan.html" target="_blank">Piazzale Loreto a Milano</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Umberto_Fogagnolo</code></td>
+      <td>Umberto Fogagnolo</td>
+      <td>Ignegnere Bianchi</td>
+      <td>Uomo</td>
+      <td>32</td>
+      <td>Ingegnere elettrotecnico</td>
+      <td>Partito Socialista</td>
+      <td>1911-10-02</td>
+      <td><a href="https://www.geonames.org/3177090/ferrara.html" target="_blank">Ferrara</a></td>
+      <td>1944-08-10</td>
+      <td><a href="https://www.geonames.org/3173435/milan.html" target="_blank">Piazzale Loreto a Milano</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Paola_Garelli</code></td>
+      <td>Paola Garelli</td>
+      <td>Mirka</td>
+      <td>Donna</td>
+      <td>28</td>
+      <td>Pettinatrice</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1916-05-14</td>
+      <td><a href="https://www.geonames.org/3173162/mondovi.html" target="_blank">Mondovì (Cuneo)</a></td>
+      <td>1944-11-01</td>
+      <td><a href="https://www.geonames.org/3167022/savona.html" target="_blank">Fossato della Fortezza ex Priamar di Savona</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Eusebio_Giambone</code></td>
+      <td><a href="http://viaf.org/viaf/90206995" target="_blank">Eusebio Giambone</a></td>
+      <td>Franco</td>
+      <td>Uomo</td>
+      <td>40</td>
+      <td>Linotipista</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1903-05-01</td>
+      <td><a href="https://www.geonames.org/6543512/camagna-monferrato.html" target="_blank">Camagna Monferrato (Asti)</a></td>
+      <td>1944-04-05</td>
+      <td><a href="https://www.geonames.org/3165524/turin.html" target="_blank">Poligono Nazionale del Martinetto a Torino</a></td>
+      <td>Medaglia d'Oro e d'Argento al Valor Militare</td>
+    </tr>
+    <tr>
+      <td><code>Franca_Lanzone</code></td>
+      <td>Franca Lanzone</td>
+      <td>—</td>
+      <td>Donna</td>
+      <td>25</td>
+      <td>Casalinga</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1919-09-28</td>
+      <td><a href="https://www.geonames.org/3167022/savona.html" target="_blank">Savona</a></td>
+      <td>1944-11-01</td>
+      <td><a href="https://www.geonames.org/3167022/savona.html" target="_blank">Fossato della Fortezza ex Priamar di Savona</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Aleandro_Longhi</code></td>
+      <td>Aleandro Longhi</td>
+      <td>Bianchi</td>
+      <td>Uomo</td>
+      <td>35</td>
+      <td>Operaio del reparto calderai allo stabilimento di San Giorgio di Sestri Ponente (Genova)</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1909-06-05</td>
+      <td><a href="https://www.geonames.org/3183089/ancona.html" target="_blank">Ancona</a></td>
+      <td>1944-07-29</td>
+      <td><a href="https://www.geonames.org/3176219/genoa.html" target="_blank">Forte San Giuliano a Genova</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Alberto_Marchesi</code></td>
+      <td>Alberto Marchesi</td>
+      <td>—</td>
+      <td>Uomo</td>
+      <td>43</td>
+      <td>Commerciante</td>
+      <td>Partito Comunista Italiano</td>
+      <td>1900-09-22</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Roma</a></td>
+      <td>1944-03-24</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Fosse Ardeatine</a></td>
+      <td>Medaglia d'Oro al Valor Militare</td>
+    </tr>
+    <tr>
+      <td><code>Sabato_Martelli_Castaldi</code></td>
+      <td><a href="http://viaf.org/viaf/69762822" target="_blank">Sabato Martelli Castaldi</a></td>
+      <td>Tevere</td>
+      <td>Uomo</td>
+      <td>27</td>
+      <td>Generale di Brigata Aerea</td>
+      <td>—</td>
+      <td>1896-08-19</td>
+      <td><a href="https://www.geonames.org/3179337/cava-de-tirreni.html" target="_blank">Cava dei Tirreni (Salerno)</a></td>
+      <td>1944-03-24</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Fosse Ardeatine</a></td>
+      <td>Medaglia d'Oro al Valor Militare</td>
+    </tr>
+    <tr>
+      <td><code>Attilio_Martinetto</code></td>
+      <td>Attilio Martinetto</td>
+      <td>—</td>
+      <td>Uomo</td>
+      <td>23</td>
+      <td>Guardia di Finanza</td>
+      <td>Democrazia Cristiana</td>
+      <td>1922-02-01</td>
+      <td><a href="https://www.geonames.org/3179663/castell-alfero.html" target="_blank">Castell'Alfero d'Asti</a></td>
+      <td>1945-04-25</td>
+      <td><a href="https://www.geonames.org/3177700/cuneo.html" target="_blank">Cimitero Vecchio detto Gessi a Cuneo</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Aldo_Mei</code></td>
+      <td><a href="http://viaf.org/viaf/307333499" target="_blank">Aldo Mei</a></td>
+      <td>—</td>
+      <td>Uomo</td>
+      <td>32</td>
+      <td>Sacerdote</td>
+      <td>—</td>
+      <td>1912-03-05</td>
+      <td><a href="https://www.geonames.org/3168792/ruota.html" target="_blank">Ruota (Lucca)</a></td>
+      <td>1944-08-04</td>
+      <td><a href="https://www.geonames.org/3174530/lucca.html" target="_blank">Fuori Porta Elisa di Lucca</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Giuseppe_Cordero_Lanza_di_Montezemolo</code></td>
+      <td><a href="http://viaf.org/viaf/103341749" target="_blank">Giuseppe Cordero Lanza di Montezemolo</a></td>
+      <td>Ing. Giacomo Cataratto, prof. Giuseppe Martini</td>
+      <td>Uomo</td>
+      <td>42</td>
+      <td>Colonnello di Stato Maggiore</td>
+      <td>monarchico-badogliano</td>
+      <td>1901-05-26</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Roma</a></td>
+      <td>1944-03-24</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Fosse Ardeatine</a></td>
+      <td>Medaglia d'Oro al Valor Militare</td>
+    </tr>
+    <tr>
+      <td><code>Luciano_Pradolin</code></td>
+      <td>Luciano Pradolin</td>
+      <td>Goffredo</td>
+      <td>Uomo</td>
+      <td>23</td>
+      <td>Insegnante a Tramonti di Sopra (Udine) e studente di lingue a Cà Foscari di Venezia</td>
+      <td>—</td>
+      <td>1921-02-28</td>
+      <td><a href="https://www.geonames.org/3165326/tramonti-di-sopra.html" target="_blank">Tramonti di Sopra (Udine)</a></td>
+      <td>1945-02-11</td>
+      <td><a href="https://www.geonames.org/3165072/udine.html" target="_blank">Cimitero di Udine</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Simone_Simoni</code></td>
+      <td>Simone Simoni</td>
+      <td>—</td>
+      <td>Uomo</td>
+      <td>63</td>
+      <td>Generale di Divisione</td>
+      <td>—</td>
+      <td>1880-12-24</td>
+      <td><a href="https://www.geonames.org/3171378/patrica.html" target="_blank">Patrica (Frosinone)</a></td>
+      <td>1944-03-24</td>
+      <td><a href="https://www.geonames.org/3169070/rome.html" target="_blank">Fosse Ardeatine</a></td>
+      <td>Medaglia d'Oro al Valor Militare</td>
+    </tr>
+    <tr>
+      <td><code>Ferruccio_Valobra</code></td>
+      <td>Ferruccio Valobra</td>
+      <td>Capitano Rossi</td>
+      <td>Uomo</td>
+      <td>40</td>
+      <td>Perito industriale, rappresentante</td>
+      <td>Partito Repubblicano</td>
+      <td>1898-04-12</td>
+      <td><a href="https://www.geonames.org/3165524/turin.html" target="_blank">Torino</a></td>
+      <td>1944-09-22</td>
+      <td><a href="https://www.geonames.org/3165524/turin.html" target="_blank">Poligono Nazionale del Martinetto a Torino</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><code>Irma_Marchiani</code></td>
+      <td><a href="http://viaf.org/viaf/90206995" target="_blank">Irma Marchiani</a></td>
+      <td>Anty</td>
+      <td>Donna</td>
+      <td>33</td>
+      <td>Casalinga</td>
+      <td>Partito Socialista</td>
+      <td>1911-02-06</td>
+      <td><a href="https://www.geonames.org/3176959/florence.html" target="_blank">Firenze</a></td>
+      <td>1944-11-26</td>
+      <td><a href="http://viaf.org/viaf/90206995" target="_blank">Carceri di Pavullo</a></td>
+      <td>Medaglia d'Oro al Valor Militare</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+
+  </main>
+
+
+  <section class="pre-footer">
+    <div class="pre-footer-column">
+      <h3>Progetto</h3>
+      <ul>
+        <li><a href="project-plan.html">Project Plan</a></li>
+      </ul>
+    </div>
+    <div class="pre-footer-column">
+      <h3>Dati</h3>
+      <ul>
+        <li><a href="metadati-progetto.xml">Metadati XML/DC</a></li>
+        <li><a href="xml.html">Schema di descrizione dei dati anagrafici</a></li>
+      </ul>
+    </div>
+    <div class="pre-footer-column">
+      <h3>Informazioni</h3>
+      <ul>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="licenze.html">Licenze</a></li>
+        </ul>
+    </div>
+  </section>
+
+  <footer >
+    <p>©Copyrights (c) 2026 by Martina Simonelli - martina.simonelli2@studio.unibo.it</p>
+  </footer>
+
+</body>
+</html>

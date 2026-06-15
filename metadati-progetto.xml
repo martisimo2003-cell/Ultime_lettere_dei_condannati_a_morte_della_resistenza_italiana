@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp:collezione xmlns:mp="http://example.org/mp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<mp:metadata>
+		<dc:title>Lettere di condannati a morte della resistenza italiana. 8 settembre 1943-25 aprile 1945</dc:title>
+		<dc:creator>Piero Malvezzi</dc:creator>
+		<dcterms:creator xsi:type="dcterms:URI">http://viaf.org/viaf/76808614</dcterms:creator>
+		<dc:creator>Giovanni Pirelli</dc:creator>
+		<dcterms:creator xsi:type="dcterms:URI">http://viaf.org/viaf/90172078</dcterms:creator>
+		<dc:creator>VV. AA.</dc:creator>
+		<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+		<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+		<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+		<dc:description>Lettere di condannati a morte della Resistenza italiana (8 settembre 1943 - 25 aprile 1945) è un libro che raccoglie le ultime lettere o messaggi di 112 partigiani e patrioti della Resistenza italiana, giustiziati da plotoni d'esecuzione oppure uccisi dopo esser stati torturati, e taluni che s'erano uccisi.</dc:description>
+		<dc:publisher>Giulio Einaudi Editore</dc:publisher>
+		<dc:contributor>Enzo Enriques Agnoletti</dc:contributor>
+		<dcterms:issued>1952</dcterms:issued>
+		<dcterms:temporal>1943-1945</dcterms:temporal>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection">Collection</dc:type>
+		<dcterms:medium>volume a stampa</dcterms:medium>
+		<dc:identifier>SBN LO10074759</dc:identifier>
+		<dc:language>it</dc:language>
+		<dc:rights>Copyright Einaudi</dc:rights>
+	</mp:metadata>
+	<mp:oggetti>
+		<mp:oggetto n="1" xml:id="Maria_Luisa_Alessi">
+			<dc:title>Scheda biografica di Maria Luisa Alessi</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Cuneo</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3177700/cuneo.html</dcterms:spatial>
+			<mp:nome tipo="persona">Maria Luisa Alessi</mp:nome>
+			<mp:nome tipo="battaglia">Marialuisa</mp:nome>
+			<mp:età>33</mp:età>
+			<mp:professione>impiegata</mp:professione>
+			<mp:data tipo="nascita">1911-05-17</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/8950411/falicetto.html">Falicetto (Cuneo)</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-11-26</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3177700/cuneo.html">piazzale della stazione di Cuneo</mp:luogo>
+			<mp:genere>donna</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="2" xml:id="Giulio_Casiraghi">
+			<dc:title>Scheda biografica di Giulio Casiraghi</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Milano</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3173435/milan.html</dcterms:spatial>
+			<mp:nome tipo="persona">Giulio Casiraghi</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>44</mp:età>
+			<mp:professione>montatore elettromeccanico</mp:professione>
+			<mp:data tipo="nascita">1899-10-17</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3166598/sesto-san-giovanni.html">Sesto San Giovanni (Milano)</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-08-10</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3173435/milan.html">piazzale Loreto a Milano</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="3" xml:id="Mario_De_Martis">
+			<dc:title>Scheda biografica di Mario De Martis</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Roma</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3169070/rome.html</dcterms:spatial>
+			<mp:nome tipo="persona">Mario De Martis</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>23</mp:età>
+			<mp:professione>studente in lettere</mp:professione>
+			<mp:data tipo="nascita">1920-11-20</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3167096/sassari.html">Sassari</mp:luogo>
+			<mp:affiliazione-politica>monarchico-badogliano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-06-03</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3169070/rome.html">spalti del Forte Bravetta a Roma</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="4" xml:id="Pietro_Ferreira">
+			<dc:title>Scheda biografica di Pietro Ferreira</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Torino</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3165524/turin.html</dcterms:spatial>
+			<mp:nome tipo="persona" rdf:resource="http://viaf.org/viaf/8295175417522304080007">Pietro Ferreira</mp:nome>
+			<mp:nome tipo="battaglia">Pedro</mp:nome>
+			<mp:età>23</mp:età>
+			<mp:professione>ufficiale in Servizio Permanente Effettivo</mp:professione>
+			<mp:data tipo="nascita">1921-10-03</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3176219/genoa.html">Genova</mp:luogo>
+			<mp:affiliazione-politica>Partito d'Azione</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1945-01-23</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3165524/turin.html">Poligono Nazionale del Martinetto a Torino</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+		<mp:oggetto n="5" xml:id="Domenico_Fiorani">
+			<dc:title>Scheda biografica di Domenico Fiorani</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Milano</dc:coverage>
+			<dcterms:spatial xsi:type="URI">https://www.geonames.org/3173435/milan.html</dcterms:spatial>
+			<mp:nome tipo="persona">Domenico Fiorani</mp:nome>
+			<mp:nome tipo="battaglia">Mingo</mp:nome>
+			<mp:età>31</mp:età>
+			<mp:professione>perito industriale</mp:professione>
+			<mp:data tipo="nascita">1913-01-24</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/2659098/raron.html">Raron (Svizzera)</mp:luogo>
+			<mp:affiliazione-politica>Partito Socialista</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-08-10</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3173435/milan.html">piazzale Loreto a Milano</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="6" xml:id="Umberto_Fogagnolo">
+			<dc:title>Scheda biografica di Umberto Fogagnolo</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Milano</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3173435/milan.html</dcterms:spatial>
+			<mp:nome tipo="persona">Umberto Fogagnolo</mp:nome>
+			<mp:nome tipo="battaglia">Ignegnere Bianchi</mp:nome>
+			<mp:età>32</mp:età>
+			<mp:professione>ingegnere elettrotecnico</mp:professione>
+			<mp:data tipo="nascita">1911-10-02</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3177090/ferrara.html">Ferrara</mp:luogo>
+			<mp:affiliazione-politica>Partito Socialista</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-08-10</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3173435/milan.html">piazzale Loreto a Milano</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="7" xml:id="Paola_Garelli">
+			<dc:title>Scheda biografica di Paola Garelli</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Savona</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3167022/savona.html</dcterms:spatial>
+			<mp:nome tipo="persona">Paola Garelli</mp:nome>
+			<mp:nome tipo="battaglia">Mirka</mp:nome>
+			<mp:età>28</mp:età>
+			<mp:professione>pettinatrice</mp:professione>
+			<mp:data tipo="nascita">1916-05-14</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3173162/mondovi.html">Mondovì (Cuneo)</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-11-01</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3167022/savona.html">fossato della Fortezza ex Priamar di Savona</mp:luogo>
+			<mp:genere>donna</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="8" xml:id="Eusebio_Giambone">
+			<dc:title>Scheda biografica di Eusebio Giambone</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Asti</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3182714/asti.html></dcterms:spatial>
+			<mp:nome tipo="persona" rdf:resource="http://viaf.org/viaf/90206995">Eusebio Giambone</mp:nome>
+			<mp:nome tipo="battaglia">Franco</mp:nome>
+			<mp:età>40</mp:età>
+			<mp:professione>linotipista</mp:professione>
+			<mp:data tipo="nascita">1903-05-01</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/6543512/camagna-monferrato.html">Camagna Monferrato (Asti)</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-04-05</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3165524/turin.html">Poligono Nazionale del Martinetto a Torino</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro e d'Argento al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+		<mp:oggetto n="9" xml:id="Franca_Lanzone">
+			<dc:title>Scheda biografica di Franca Lanzone</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Savona</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3167022/savona.html</dcterms:spatial>
+			<mp:nome tipo="persona">Franca Lanzone</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>25</mp:età>
+			<mp:professione>casalinga</mp:professione>
+			<mp:data tipo="nascita">1919-09-28</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3167022/savona.html">Savona</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-11-01</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3167022/savona.html">fossato della Fortezza ex Priamar di Savona</mp:luogo>
+			<mp:genere>donna</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="10" xml:id="Aleandro_Longhi">
+			<dc:title>Scheda biografica di Aleandro Longhi</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Genova</dc:coverage>
+			<dcterms:spatial xsi:type="URI">https://www.geonames.org/3176219/genoa.html</dcterms:spatial>
+			<mp:nome tipo="persona">Aleandro Longhi</mp:nome>
+			<mp:nome tipo="battaglia">Bianchi</mp:nome>
+			<mp:età>35</mp:età>
+			<mp:professione>operaio del reparto calderai allo stabilimento di San Giorgio di Sestri Ponente (Genova)</mp:professione>
+			<mp:data tipo="nascita">1909-06-05</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3183089/ancona.html">Ancona</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-07-29</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3176219/genoa.html">Forte San Giuliano a Genova</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="11" xml:id="Alberto_Marchesi">
+			<dc:title>Scheda biografica di Alberto Marchesi</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Roma</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3169070/rome.html</dcterms:spatial>
+			<mp:nome tipo="persona">Alberto Marchesi</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>43</mp:età>
+			<mp:professione>commerciante</mp:professione>
+			<mp:data tipo="nascita">1900-09-22</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3169070/rome.html">Roma</mp:luogo>
+			<mp:affiliazione-politica>Partito Comunista Italiano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-03-24</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3169070/rome.html">Fosse Ardeatine</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+		<mp:oggetto n="12" xml:id="Sabato_Martelli_Castaldi">
+			<dc:title>Scheda biografica di Sabato Martelli Castaldi</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Roma</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3169070/rome.html</dcterms:spatial>
+			<mp:nome tipo="persona" rdf:resource="http://viaf.org/viaf/69762822">Sabato Martelli Castaldi</mp:nome>
+			<mp:nome tipo="battaglia">Tevere</mp:nome>
+			<mp:età>27</mp:età>
+			<mp:professione>generale di Brigata Aerea</mp:professione>
+			<mp:data tipo="nascita">1896-08-19</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3179337/cava-de-tirreni.html">Cava dei Tirreni (Salerno)</mp:luogo>
+			<mp:affiliazione-politica/>
+			<mp:data tipo="esecuzione">1944-03-24</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3169070/rome.html">Fosse Ardeatine</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+		<mp:oggetto n="13" xml:id="Attilio_Martinetto">
+			<dc:title>Scheda biografica di Attilio Martinetto</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Cuneo</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3177700/cuneo.html</dcterms:spatial>
+			<mp:nome tipo="persona">Attilio Martinetto</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>23</mp:età>
+			<mp:professione>Guardia di Finanza</mp:professione>
+			<mp:data tipo="nascita">1922-02-01</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3179663/castell-alfero.html">Castell'Alfero d'Asti</mp:luogo>
+			<mp:affiliazione-politica>Democrazia Cristiana</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1945-04-25</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3177700/cuneo.html">Cimitero Vecchio detto Gessi a Cuneo</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="14" xml:id="Aldo_Mei">
+			<dc:title>Scheda biografica di Aldo Mei</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Lucca</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3174530/lucca.html</dcterms:spatial>
+			<mp:nome tipo="persona" rdf:resource="http://viaf.org/viaf/307333499">Aldo Mei</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>32</mp:età>
+			<mp:professione>sacerdote</mp:professione>
+			<mp:data tipo="nascita">1912-03-05</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3168792/ruota.html">Ruota (Lucca)</mp:luogo>
+			<mp:affiliazione-politica/>
+			<mp:data tipo="esecuzione">1944-08-04</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3174530/lucca.html">fuori Porta Elisa di Lucca</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="15" xml:id="Giuseppe_Cordero_Lanza_di_Montezemolo">
+			<dc:title>Scheda biografica di Giuseppe Cordero Lanza di Montezemolo</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Roma</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3169070/rome.html</dcterms:spatial>
+			<mp:nome tipo="persona" rdf:resource="http://viaf.org/viaf/103341749">Giuseppe Cordero Lanza di Montezemolo</mp:nome>
+			<mp:nome tipo="battaglia">Ing. Giacomo Cataratto, prof. Giuseppe Martini</mp:nome>
+			<mp:età>42</mp:età>
+			<mp:professione>colonnello di Stato Maggiore</mp:professione>
+			<mp:data tipo="nascita">1901-05-26</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3169070/rome.html">Roma</mp:luogo>
+			<mp:affiliazione-politica>monarchico-badogliano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-03-24</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3169070/rome.html">Fosse Ardeatine</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+		<mp:oggetto n="16" xml:id="Luciano_Pradolin">
+			<dc:title>Scheda biografica di Luciano Pradolin</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Udine</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3165072/udine.html</dcterms:spatial>
+			<mp:nome tipo="persona">Luciano Pradolin</mp:nome>
+			<mp:nome tipo="battaglia">Goffredo</mp:nome>
+			<mp:età>23</mp:età>
+			<mp:professione>insegnante a Tramonti di Sopra (Udine) e studente di lingue a Cà Foscari di Venezia</mp:professione>
+			<mp:data tipo="nascita">1921-02-28</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3165326/tramonti-di-sopra.html">Tramonti di Sopra (Udine)</mp:luogo>
+			<mp:affiliazione-politica/>
+			<mp:data tipo="esecuzione">1945-02-11</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3165072/udine.html">cimitero di Udine</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="17" xml:id="Simone_Simoni">
+			<dc:title>Scheda biografica di Simone Simoni</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Roma</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3169070/rome.html</dcterms:spatial>
+			<mp:nome tipo="persona">Simone Simoni</mp:nome>
+			<mp:nome tipo="battaglia"/>
+			<mp:età>63</mp:età>
+			<mp:professione>generale di Divisione</mp:professione>
+			<mp:data tipo="nascita">1880-12-24</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3171378/patrica.html">Patrica (Frosinone)</mp:luogo>
+			<mp:affiliazione-politica/>
+			<mp:data tipo="esecuzione">1944-03-24</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3169070/rome.html">Fosse Ardeatine</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+		<mp:oggetto n="18" xml:id="Ferruccio_Valobra">
+			<dc:title>Scheda biografica di Ferruccio Valobra</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Torino</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3165524/turin.html</dcterms:spatial>
+			<mp:nome tipo="persona">Ferruccio Valobra</mp:nome>
+			<mp:nome tipo="battaglia">Capitano Rossi</mp:nome>
+			<mp:età>40</mp:età>
+			<mp:professione>perito industriale, rappresentante</mp:professione>
+			<mp:data tipo="nascita">1898-04-12</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3165524/turin.html">Torino</mp:luogo>
+			<mp:affiliazione-politica>Partito Repubblicano</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-09-22</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="https://www.geonames.org/3165524/turin.html">Poligono Nazionale del Martinetto a Torino</mp:luogo>
+			<mp:genere>uomo</mp:genere>
+			<mp:decorazioni/>
+		</mp:oggetto>
+		<mp:oggetto n="19" xml:id="Irma_Marchiani">
+			<dc:title>Scheda biografica di Irma Marchiani</dc:title>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text">Text</dc:type>
+			<dc:language>it</dc:language>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</dcterms:subject>
+			<dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al nazifascismo</dcterms:subject>
+			<dcterms:temporal>1943-1945</dcterms:temporal>
+			<dc:coverage>Pavullo</dc:coverage>
+			<dcterms:spatial>https://www.geonames.org/3171355/pavullo-nel-frignano.html</dcterms:spatial>
+			<mp:nome tipo="persona" rdf:resource="http://viaf.org/viaf/90206995">Irma Marchiani</mp:nome>
+			<mp:nome tipo="battaglia">Anty</mp:nome>
+			<mp:età>33</mp:età>
+			<mp:professione>casalinga</mp:professione>
+			<mp:data tipo="nascita">1911-02-06</mp:data>
+			<mp:luogo tipo="nascita" rdf:resource="https://www.geonames.org/3176959/florence.html">Firenze</mp:luogo>
+			<mp:affiliazione-politica>Partito Socialista</mp:affiliazione-politica>
+			<mp:data tipo="esecuzione">1944-11-26</mp:data>
+			<mp:luogo tipo="esecuzione" rdf:resource="http://viaf.org/viaf/90206995">carceri di Pavullo</mp:luogo>
+			<mp:genere>donna</mp:genere>
+			<mp:decorazioni>Medaglia d'Oro al Valor Militare</mp:decorazioni>
+		</mp:oggetto>
+	</mp:oggetti>
+</mp:collezione>

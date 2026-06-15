@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Giuseppe Cordero Lanza di Montezemolo (Ing. Giacomo Cataratto, prof. Giuseppe Martini) alla Moglie</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Giuseppe_Cordero_Lanza_di_Montezemolo" xml:id="Giuseppe_Cordero_Lanza_di_Montezemolo" sameAs="http://viaf.org/viaf/103341749">Giuseppe Cordero Lanza di Montezemolo</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1944-01-25" notAfter="1944-03-24">durante la detenzione nelle carceri di via Tasso</date>
+				<placeName ref="Roma">Roma</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Giuseppe_Cordero_Lanza_di_Montezemolo">Giuseppe Cordero Lanza di Montezemolo</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Roma" sameAs="https://www.geonames.org/3169070/rome.html">
+						<placeName>Roma</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#dio">Dio</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<p>
+					Se tutto andasse male Juccia sappia che non sapevo di amarla tanto: rimpiango solo lei ed i figli.
+				</p>
+				<p>
+					Confido in <rs type="concept" ref="#dio">Dio</rs>. Però occorre aiutarsi. Io non posso che resistere e durare. Lo farò per quanto umanamente possibile.
+				</p>
+				<p>
+					Insistete per la soluzione totale (Vaticano chiede internamento). Se vuole può ottenerlo e risolve tutto.
+				</p>
+				<closer>
+					<signed><persName ref="#Giuseppe_Cordero_Lanza_di_Montezemolo">Beppo</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Eusebio Giambone (Franco) alla Moglie scritta in data 3-04-1944 da Carcere giudiziario di Torino</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Eusebio_Giambone" xml:id="Eusebio_Giambone" sameAs="http://viaf.org/viaf/90206995">Eusebio Giambone</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-04-03">3 aprile 1944</date>
+				<placeName ref="#Torino">Torino</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Eusebio_Giambone">Eusebio Giambone</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Torino" sameAs="https://www.geonames.org/3165524/turin.html">
+						<placeName>Torino</placeName>
+					</place>
+					<place xml:id="Camagna" sameAs="https://www.geonames.org/6543512/camagna-monferrato.html">
+						<placeName>Camagna</placeName>
+					</place>
+					<place xml:id="Occimiano" sameAs="https://www.geonames.org/3172127/occimiano.html">
+						<placeName>Occimiano</placeName>
+					</place>
+					<place xml:id="S.Martino" sameAs="https://www.geonames.org/6931786/pizzo-s-martino.html">
+						<placeName>S. Martino</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#vita">Vita</term>
+					<term ref="#coscienza">Coscienza</term>
+					<term ref="#ideale">Ideale</term>
+					<term ref="#dolore">Dolore</term>
+					<term ref="#coraggio">Coraggio</term>
+					<term ref="#avvenire">Avvenire</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<dateline><placeName ref="#Torino">Torino-Carcere giudiziario</placeName><date when="1944-04-03">Lunedì 3 aprile</date><time when="22:00:00">ore 22</time></dateline>
+					<salute>Cara adorata Luisetta</salute>
+				</opener>
+				<p>
+					le cose che vorrei dirti sono tante che non so dove cominciare, nella mia testa vi è una ridda di pensieri che potrei esprimerti bene solo a voce, pur essendo calmo, cercherò di coordinare per esprimerti esattamente tutto ciò che penso e il mio vero stato d’animo in questo momento.
+				</p>
+				<p>
+					Sono calmo, estremamente calmo, non avrei mai creduto che si potesse guardare la morte con tanta calma, non indifferenza, che anzi mi dispiace molto morire, ma ripeto sono tranquillo.
+				</p>
+				<p>
+					Io che, non sono credente, io che non credo alla <rs type="concept" ref="#vita">vita</rs> dell’al di là, mi dispiace morire ma non ho paura di morire: non ho paura della morte, sono forse per questo un Eroe ? Niente affatto, sono tranquillo e calmo per una semplice ragione che tu comprendi, sono tranquillo perché ho la <rs type="concept" ref="#coscienza">coscienza</rs> pulita, ciò è piuttosto banale, perché la <rs type="concept" ref="#coscienza">coscienza</rs> pulita l’ha anche colui che non ha fatto del male, ma io non solo non ho fatto del male, ma durante tutta la mia <rs type="concept" ref="vita">vita</rs> breve ho la <rs type="concept" ref="#coscienza">coscienza</rs> di aver fatto del bene non solo nella forma ristretta di aiutare il prossimo, ma dando tutto me stesso, tutte le mie forze, benché modeste, lottando senza tregua per la Grande e Santa Causa della liberazione dell’Umanità oppressa.
+				</p>
+				<p>
+					Fra poche ore io certamente non sarò più, ma sta pur certa che sarò calmo e tranquillo di fronte al plotone di esecuzione come lo sono attualmente, come lo fui durante quei due giorni di simulacro di processo, come lo fui alla lettura della sentenza, perché sapevo già all’inizio di questo simulacro di processo che al conclusione sarebbe stata la condanna a morte.
+				</p>
+				<p>
+					Sono così tranquilli coloro che ci hanno condannati ? Certamente no ! Essi credono con le nostre condanne di arrestare il corso della storia; si sbagliano ! Nulla arresterà il trionfo del nostro <rs type="concept" ref="#ideale">Ideale</rs>, essi pensano forse di arrestare la schiera di innumerevoli combattenti della Libertà con il terrore ? Essi si sbagliano ! Ma non credo che essi si facciano queste illusioni: essi sanno certamente di non poter arrestare il corso normale degli avvenimenti, ma agiscono con il terrore per prolungare il più possibile il momento della resa dei conti.-
+				</p>
+				<p>
+					Ad ogni modo siamo una famiglia predestinata a dare tutto per la causa: io oggi, come prima Vitale sul campo di battaglia.-
+				</p>
+				<p>
+					E’ venuto in questo momento il sacerdote col quale ho discusso a lungo: è afflitto perché non ho voluto confessarmi, poiché non sono un credente sarebbe stata da parte mia una incorrettezza il confessarmi, ma mi pare tanto un bravo uomo che gli ho chiesto di venir a trovarti perché ti confermasse a voce come veramente mi ha visto tranquillo.-
+				</p>
+				<p>
+					Forse ti appaio un po’ egoista quando ti parlo solo della mia calma, della mia serenità, del mio <rs type="concept" ref="#ideale">Ideale</rs> per il quale sto per dare la <rs type="concept" ref="#vita">vita</rs>, ma tu lo sai che ciò non è, tu sai – mia adorata Luisa, che col mio <rs type="concept" ref="#ideale">Ideale</rs> si confonde l’amore per te e Gisella con l’amore per l’Umanità intera, e se, come ti ho detto, mi dispiace morire è perché non potrò più godere del vostro affetto, è perché mi addoloro del vostro <rs type="concept" ref="#dolore">dolore</rs>.
+				</p>
+				<p>
+					In questo momento rivedo come se li vivessi i ventun anni del nostro grande amore, amore che si si è confuso e rinnovato nei nostri figli: non vedo una differenza o una mancanza di continuità fra il nostro ardente amore giovanile e il calmo amore della nostra maturità che si esprime con la passione che tutti e due abbiamo riservato alla nostra Gisella.
+				</p>
+				<p>
+					Rivedo e rivivo questi ventun anni e mi sento tranquillo perché sono convinto di essere sempre stato un cuore amante, uno sposo ed un padre perfetto. Se si può parlare della perfezione. Avrei voluto vedervi anche un solo istante, stringervi nelle mie braccia, perché poteste attingere <rs type="concept" ref="#coraggio">coraggio</rs> dalla mia perfetta tranquilità.
+				</p>
+				<p>
+					Non fu possibile ma sono certo che tu sarai forte e coraggiosa e che saprai evitare che questa sciagura possa troppo scuotere la nostra Gisella che è tanto suscettibile e sensibile infondendo a lei il tuo <rs type="concept" ref="#coraggio">coraggio</rs>.
+				</p>
+				<p>
+					Ora ti faccio alcune raccomandazioni al fine che tu possa affrontare anche materialmente l’immediato <rs type="concept" ref="#avvenire">avvenire</rs>.-
+				</p>
+				<p>
+					Ricordati che dei pochi soldi che ci restavano solo sei mila lire erano del cugino le altre che restavano erano nostre: ma pure le sei mila del cugino puoi considerarle come tue e servirtene dato che lui non mi considerava più suo debitore ed anche era disposto ad aiutarmi ancora nel caso che mi fossi trovato nelle ristrettezze, se per caso nel corso della perquisizione avessero sequestrato questi pochi soldi non indugiarti a chiedere che ti siano restituiti, inoltre, al momento del mio arresto avevo in tasca, come lo sai, 3.064 lire che sono state depositate qui al Carcere e che verrai a ritirare con i miei oggetti personali: orologio, penna, ecc.....
+				</p>
+				<p>
+					Per l’<rs type="concept" ref="#avvenire">avvenire</rs> più lontano riuscirai a sistemarti con l’aiuto del cugino; inoltre un amico che fino a ieri era per me uno sconosciuto, ma che questi due giorni ci hanno affratellati, e che ha avuto la fortuna di essere riconosciuto innocente, mi ha promessi che si sarebbe occupato anche di aiutarvi per fare continuaregli studi a Gisella.
+				</p>
+				<p>
+					Tu devi essere coraggiosa perché resti sola con la responsabilità dell’avvenire di Gisella, perciò sii forte, alto il cuore e il morale per conservare la salute fisica ed assolvere la tua missione.
+				</p>
+				<p>
+					Appena sarai calma, e lo devi essere rapidamente, vai a fare un piccolo viaggio a <placeName ref="#Camagna">Camagna</placeName>, <placeName ref="#Occimiano">Occiniano</placeName>, <placeName ref="#S.Martino">S. Martino</placeName> per distrarre Gisella e fargli conoscere i cugini suoi, non solo, ma anche perché tutte e due possiate trovare energie fisiche, certamente scosse in questo momento, con un nutrimento più consistente.
+				</p>
+				<p>
+					Quando la situazione lo permetterà, andrete certamente a raggiungere i genitori: ma non precipitare nulla e non compromettere l’<rs type="concept" ref="#avvenire">avvenire</rs> di Gisella se è possibile farle continuare gli studi.-
+				</p>
+				<p>
+					Termino, no che abbia più nulla da dirti, ma potrei continuare per ore a parlarti del mio amore per voi, credo che non sia necessario.
+				</p>
+				<p>
+					Non scrivo a Pietro e ... perché dopo che avrò scritto a Gisella non mi resterà che poco tempo per riposarmi: di’ loro che lo ricordo con affetto come Nanda, Luigina, Pierina e Rina: abbracciali tutti per me e di’ loro di parlare a Elsa e Franco del loro zio Eusebio. Saluta tutti gli amici, giovani e anziani: i tuoi genitori, quando potrai rivederli di’ loro che io li ho sempre considerati e affezionati come i miei.
+				</p>
+				<p>
+					Sii forte per te, per Gisella, sono certo che lo sarai, come sono certo che vedrete il mondo migliore per il quale ho dato tutta la mia modesta <rs type="concept" ref="#vita">vita</rs> e sono contento di averla data.
+				</p> 
+				<p>
+					<rs type="concept" ref="#coraggio">Coraggio</rs>, vi amo quanto può amare uno sposo ed un padre.
+				</p>
+				<closer>
+					<salute>Vi stringo in un abbraccio ininterrotto per tutte le ore che mi restano a vivere.</salute>
+					 <signed><persName ref="#Eusebio_Giambone">Eusebio</persName></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>

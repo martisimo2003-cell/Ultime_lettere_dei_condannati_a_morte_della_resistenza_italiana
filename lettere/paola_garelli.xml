@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Paola Garelli (Mirka) alla Figlia scritta in data 1-11-1944 da Savona</title>
+				<author>
+					<persName ref="../metadati-progetto.xml#Paola_Garelli" xml:id="Paola_Garelli">Paola Garelli</persName>
+				</author>	
+				<respStmt>
+					<name>Martina Simonelli</name>
+					<resp>Trascrizione e encoding TEI</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Martina Simonelli</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Lettere di condannati a morte della Resistenza italiana.Torino: Einaudi, 1952.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when="1944-11-01">1 novembre 1944</date>
+				<placeName ref="#Savona">Savona</placeName>
+			</creation>
+			<langUsage>
+				<language ident="it">italiano</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person>
+						<persName ref="#Paola_Garelli">Paola Garelli</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="Savona" sameAs="https://www.geonames.org/3167022/savona.html">
+						<placeName>Savona</placeName>
+					</place>
+				</listPlace>
+			</settingDesc>
+			<textClass>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=10307">Lettere</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=20497">Condannati a morte</term>
+					<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=58559">Resistenza al Nazifascismo</term>
+				</keywords>
+				<keywords scheme="concept">
+					<term ref="#dolore">Dolore</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener>
+					<salute>Mimma cara</salute>
+				</opener>
+				<p>
+					la tua mamma se ne va pensandoti ed amandoti, mia creatura adorata, sii buona, studia e ubbidisci sempre gli zii che t’allevano, amali come fossi io.
+				</p>
+				<p>
+					Io sono tranquilla – Tu devi dire a tutti i nostri cari parenti, nonna e gli altri, che mi perdonino, il <rs type="concept" ref="#dolore">dolore</rs> che do loro. Non devi piangere né vergognarti di me - Quando sarai grande capirai meglio- Ti chiedo solo una cosa: studia, io ti proteggerò dal cielo.
+				</p>
+				<closer>
+					<salute>Ti abbraccio col pensiero te e tutti, ricordandovi.</salute>
+					<signed>La tua infelice mamma.</signed>
+					<dateline><date when="1944-11-01">1/11/1944</date></dateline>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
