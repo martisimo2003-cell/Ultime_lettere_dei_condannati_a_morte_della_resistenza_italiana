@@ -10,42 +10,18 @@ Namespace: xmnls:mp=”schema_di_descrizione_per_i_dati_anagrafici.txt”
 Dizionario degli elementi:
 
 
-Nome
-	Descrizione
-	Attributi e valori
-	mp:nome
-	Nominativo con cui l’autore era registrato all’anagrafe oppure conosciuto all’interno del movimento della Resistenza
-	attributi e valori dell’attributo possibili: tipo=”persona”; tipo=”battaglia”; rdf:resource=”link VIAF”. Valore dell’elemento: qualsiasi stringa di caratteri
-	mp:età
-	Età anagrafica dell’autore al momento della morte
-	Senza attributi. Valore dell’elemento:massimo 2 caratteri numerici
-	mp:professione
-	Occupazione principale dell’autore al di fuori della partecipazione alla Resistenza
-	Possibile inserire attributi tipo=”” con valore libero per raggruppare le professioni in tipologie a seconda delle esigenze. Valore dell’elemento: qualsiasi stringa di caratteri
-	mp:data
-	Indicazione temporale precisa di giorno, mese e anno in cui l’autore è nato oppure è stato ucciso
-	attributi e valori dell’attributo possibili: tipo=”nascita”; tipo=”esecuzione”. Valore dell’elemento: data espressa secondo lo standard ISO 8601
-	mp:luogo
-	Indicazione geografica precisa della località in cui l’autore è nato oppure è stato ucciso
-	attributi e valori dell’attributo possibili: tipo=”nascita”; tipo=”esecuzione”; rdf:resource=”ling Geonames”. Valore dell’elemento: qualsiasi stringa di caratteri
-	mp:affiliazione-politica
-	Nome del partito a cui l’autore era formalmente iscritto, orientamento politico estratto dai testi, dalle dichiarazioni o dall'orientamento politica del corpo militare in cui hanno militato
-	Senza attributi.Valori dell’elemento: “Partito Comunista Italiano”; “monarchico-badogliano”; “Partito d’Azione”; “Partito Socialista”; “Democrazia Cristiana”; “Partito Repubblicano”. Non è obbligatorio inserire questo elemento nella descrizione di un oggetto
-	mp:decorazioni
-	Decorazioni militari assegnate post-mortem dallo Stato Italiano per le azioni meritorie all’interno del movimento della Resistenza
-	Senza attributi. Valori possibili:”Medaglia d’Oro al Valor Militare”; “Medaglia d’Argento al Valor Militare”
-	mp:genere
-	Genere assegnato alla nascita all’autore e con cui è registrato all’anagrafe
-	Senza attributi. Valori possibili:”donna”; “uomo”
-	mp:oggetto
-	L’insieme delle informazioni e dei metadati sull’autore e sulla risorsa testuale (la lettera) associata
-	Attributi e valori possibili: n=”(caratteri numerici)”; xml:id”(stringa di caratteri alfanumerici)”. L’elemento oggetto può contenere elementi appartenenti allo schema DC, DC:terms e/o mp. L’elemento oggetto deve sempre essere contenuto dentro l’elemento mp:oggetti
-	mp:oggetti
-	L’insieme di tutti gli elementi mp:oggetto
-	Deve contenere tutti gli elementi mp:oggetto e solo quelli
-	mp:collezione
-	L’insieme dell’elemento mp:oggetti ed eventualmente altri elementi che identifichino risorse di altra tipologia, qualora ve ne siano
-	Deve contenere l’elemento mp:oggetti, può contenere altri elementi
+Nome; Descrizione; Attributi e valori
+mp:nome; Nominativo con cui l’autore era registrato all’anagrafe oppure conosciuto all’interno del movimento della Resistenza; attributi e valori dell’attributo possibili: tipo=”persona”; tipo=”battaglia”; rdf:resource=”link VIAF”. Valore dell’elemento: qualsiasi stringa di caratteri
+mp:età; Età anagrafica dell’autore al momento della morte; Senza attributi. Valore dell’elemento:massimo 2 caratteri numerici
+mp:professione; Occupazione principale dell’autore al di fuori della partecipazione alla Resistenza; Possibile inserire attributi tipo=”” con valore libero per raggruppare le professioni in tipologie a seconda delle esigenze. Valore dell’elemento: qualsiasi stringa di caratteri
+mp:data; Indicazione temporale precisa di giorno, mese e anno in cui l’autore è nato oppure è stato ucciso; attributi e valori dell’attributo possibili: tipo=”nascita”; tipo=”esecuzione”. Valore dell’elemento: data espressa secondo lo standard ISO 8601
+mp:luogo; Indicazione geografica precisa della località in cui l’autore è nato oppure è stato ucciso; attributi e valori dell’attributo possibili: tipo=”nascita”; tipo=”esecuzione”; rdf:resource=”ling Geonames”. Valore dell’elemento: qualsiasi stringa di caratteri
+mp:affiliazione-politica; Nome del partito a cui l’autore era formalmente iscritto, orientamento politico estratto dai testi, dalle dichiarazioni o dall'orientamento politica del corpo militare in cui hanno militato; Senza attributi.Valori dell’elemento: “Partito Comunista Italiano”; “monarchico-badogliano”; “Partito d’Azione”; “Partito Socialista”; “Democrazia Cristiana”; “Partito Repubblicano”. Non è obbligatorio inserire questo elemento nella descrizione di un oggetto
+mp:decorazioni; Decorazioni militari assegnate post-mortem dallo Stato Italiano per le azioni meritorie all’interno del movimento della Resistenza; Senza attributi. Valori possibili:”Medaglia d’Oro al Valor Militare”; “Medaglia d’Argento al Valor Militare”
+mp:genere; Genere assegnato alla nascita all’autore e con cui è registrato all’anagrafe; Senza attributi. Valori possibili:”donna”; “uomo”
+mp:oggetto; L’insieme delle informazioni e dei metadati sull’autore e sulla risorsa testuale (la lettera) associata; Attributi e valori possibili: n=”(caratteri numerici)”; xml:id”(stringa di caratteri alfanumerici)”. L’elemento oggetto può contenere elementi appartenenti allo schema DC, DC:terms e/o mp. L’elemento oggetto deve sempre essere contenuto dentro l’elemento mp:oggetti
+mp:oggetti; L’insieme di tutti gli elementi mp:oggetto; Deve contenere tutti gli elementi mp:oggetto e solo quelli
+mp:collezione; L’insieme dell’elemento mp:oggetti ed eventualmente altri elementi che identifichino risorse di altra tipologia, qualora ve ne siano; Deve contenere l’elemento mp:oggetti, può contenere altri elementi
 	mp:metadata
 	Insieme dei metadati descrittivi della fonte originale dalla quale sono stati estrapolati i dati di mp:oggetti
 	Può contenere elementi appartenenti allo schema DC e/o Dc:terms
